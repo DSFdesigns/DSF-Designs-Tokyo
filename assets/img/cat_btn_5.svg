@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-160,-666)">
+        <g id="Artboard1" transform="matrix(0.978593,0,0,0.980754,-1031.44,-24.0389)">
+            <rect x="1054" y="24.511" width="654" height="1168.49" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="1054" y="24.511" width="654" height="1168.49"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g id="Button-0" serif:id="Button 0">
+                </g>
+                <g transform="matrix(1.02188,0,0,1.03066,239.696,-670.404)">
+                    <g id="Button-1" serif:id="Button 1">
+                        <rect x="796.758" y="1491.4" width="160" height="158.287"/>
+                    </g>
+                </g>
+                <g transform="matrix(1.02188,0,0,1.03066,239.813,-833.544)">
+                    <g id="Button-4" serif:id="Button 4">
+                        <rect x="796.758" y="1491.4" width="160" height="158.287"/>
+                    </g>
+                </g>
+                <g id="Button-7" serif:id="Button 7">
+                </g>
+                <g id="Button-C" serif:id="Button C">
+                </g>
+                <g transform="matrix(1.02188,0,0,1.03066,403.313,-670.404)">
+                    <g id="Button-2" serif:id="Button 2">
+                        <rect x="796.758" y="1491.4" width="160" height="158.287"/>
+                    </g>
+                </g>
+                <g id="Button-5" serif:id="Button 5" transform="matrix(0.942299,0,0,1.07841,466.716,-902.912)">
+                    <g transform="matrix(1.08445,0,0,0.955721,-67.2854,64.3246)">
+                        <rect x="796.758" y="1491.4" width="160" height="158.287"/>
+                    </g>
+                    <g transform="matrix(1.91393,0,0,1.35971,-797.066,-555.359)">
+                        <path d="M843.073,1526.82C843.083,1526.79 849.513,1507.51 852.729,1507.51C855.945,1507.51 862.375,1526.79 862.386,1526.82L893.77,1526.82C893.78,1526.79 900.211,1507.51 903.427,1507.51C906.643,1507.51 913.073,1526.79 913.083,1526.82L913.084,1526.82C917.218,1526.82 920.574,1530.18 920.574,1534.31L920.574,1604.33C920.574,1608.46 917.218,1611.81 913.084,1611.81L843.073,1611.81C838.939,1611.81 835.583,1608.46 835.583,1604.33L835.583,1534.31C835.583,1530.18 838.939,1526.82 843.073,1526.82Z"/>
+                        <path d="M843.073,1526.82C843.083,1526.79 849.513,1507.51 852.729,1507.51C855.945,1507.51 862.375,1526.79 862.386,1526.82L893.77,1526.82C893.78,1526.79 900.211,1507.51 903.427,1507.51C906.643,1507.51 913.073,1526.79 913.083,1526.82L913.084,1526.82C917.218,1526.82 920.574,1530.18 920.574,1534.31L920.574,1604.33C920.574,1608.46 917.218,1611.81 913.084,1611.81L843.073,1611.81C838.939,1611.81 835.583,1608.46 835.583,1604.33L835.583,1534.31C835.583,1530.18 838.939,1526.82 843.073,1526.82ZM852.729,1510.72C853.16,1511.3 853.849,1512.28 854.329,1513.19C857.232,1518.69 860.281,1527.86 860.288,1527.88C860.636,1528.92 861.465,1529.61 862.386,1529.61L893.77,1529.61C894.691,1529.61 895.519,1528.92 895.868,1527.88C895.875,1527.86 898.924,1518.69 901.827,1513.19C902.306,1512.28 902.996,1511.3 903.427,1510.72C903.858,1511.3 904.547,1512.28 905.027,1513.19C907.93,1518.69 910.979,1527.86 910.986,1527.88C911.334,1528.92 912.163,1529.61 913.083,1529.61L913.084,1529.61C915.857,1529.61 918.308,1531.54 918.308,1534.31C918.308,1534.31 918.308,1604.33 918.308,1604.33C918.308,1607.1 915.857,1609.03 913.084,1609.03C913.084,1609.03 843.073,1609.03 843.073,1609.03C840.3,1609.03 837.849,1607.1 837.849,1604.33L837.849,1534.31C837.849,1531.54 840.3,1529.61 843.073,1529.61C843.993,1529.61 844.822,1528.92 845.17,1527.88C845.177,1527.86 848.226,1518.69 851.129,1513.19C851.609,1512.28 852.298,1511.3 852.729,1510.72Z" style="fill:rgb(0,255,0);"/>
+                    </g>
+                    <g transform="matrix(1.08445,0,0,0.945492,-48.0275,89.3414)">
+                        <text x="838.979px" y="1600.4px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:72px;fill:rgb(0,255,0);">5</text>
+                    </g>
+                </g>
+                <g transform="matrix(1.02188,0,0,1.03066,403.313,-996.684)">
+                    <g id="Button-8" serif:id="Button 8">
+                        <rect x="796.758" y="1491.4" width="160" height="158.287"/>
+                    </g>
+                </g>
+                <g id="Button-AC" serif:id="Button AC">
+                </g>
+                <g id="Button-." serif:id="Button .">
+                </g>
+                <g transform="matrix(1.02188,0,0,1.03066,566.813,-670.404)">
+                    <g id="Button-3" serif:id="Button 3">
+                        <rect x="796.758" y="1491.4" width="160" height="158.287"/>
+                    </g>
+                </g>
+                <g transform="matrix(1.02188,0,0,1.03066,566.813,-833.544)">
+                    <g id="Button-6" serif:id="Button 6">
+                        <rect x="796.758" y="1491.4" width="160" height="158.287"/>
+                    </g>
+                </g>
+                <g transform="matrix(1.02188,0,0,1.03066,566.813,-996.684)">
+                    <g id="Button-9" serif:id="Button 9">
+                        <rect x="796.758" y="1491.4" width="160" height="158.287"/>
+                    </g>
+                </g>
+                <g id="Button--" serif:id="Button %">
+                </g>
+                <g id="Button----" serif:id="Button +/-">
+                </g>
+                <g id="Button-Options" serif:id="Button Options">
+                </g>
+                <g id="Button--1" serif:id="Button =">
+                </g>
+                <g id="Button--2" serif:id="Button +">
+                </g>
+                <g id="Button--3" serif:id="Button -">
+                </g>
+                <g id="Button-x" serif:id="Button x">
+                </g>
+                <g id="Button--4" serif:id="Button /">
+                </g>
+                <g id="Display">
+                </g>
+                <g id="Button-MC" serif:id="Button MC">
+                </g>
+                <g id="Button-MR" serif:id="Button MR">
+                </g>
+            </g>
+        </g>
+        <g id="Button-01" serif:id="Button 0">
+        </g>
+        <g id="Button-Cat-120x120" serif:id="Button Cat 120x120">
+        </g>
+        <g id="Button-Cat-80x80" serif:id="Button Cat 80x80">
+        </g>
+    </g>
+</svg>
