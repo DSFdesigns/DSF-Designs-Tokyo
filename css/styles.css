@@ -171,6 +171,28 @@ ul .submenu{
 	width: 100vw;
 }
 
+.form-container{
+	display: flex;
+	background-color: var(--primary);
+	color: var(--secondary);
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	border-radius: 1em;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%);
+	justify-content: center;
+}
+
+.form-container .form-title{
+	padding-top: 10px;
+}
+
+.form-container .text{
+	margin-left: 1em;
+}
+
 .hero-text{
 	color: var(--secondary);
 	font-size: .9em;
