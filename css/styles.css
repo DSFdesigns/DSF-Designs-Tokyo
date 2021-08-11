@@ -35,7 +35,7 @@ body{
 }
 
 .bg-4a{
-	background-image: url(../assets/background/bg-4a.jpg);
+	background-image: url(../assets/background/bg-4b.jpg);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	background-attachment: fixed;
@@ -45,6 +45,8 @@ body{
 	-o-background-size: calc(100vw) calc(100vh);
 	background-size: calc(100vw) calc(100vh);
 }
+
+
 
 .container{
 	max-width: 100%;
@@ -186,28 +188,6 @@ ul .submenu{
 	width: 100vw;
 }
 
-.form-container{
-	display: flex;
-	background-color: var(--primary);
-	color: var(--secondary);
-	width: 400px;
-	height: 200px;
-	position: absolute;
-	border-radius: 1em;
-	top: 45%;
-	left: 50%;
-	transform: translate(-50%);
-	justify-content: center;
-}
-
-.form-container .form-title{
-	padding-top: 10px;
-}
-
-.form-container .text{
-	margin-left: 1em;
-}
-
 .hero-text{
 	color: var(--secondary);
 	font-size: .9em;
@@ -230,6 +210,37 @@ ul .submenu{
   justify-content: center;
 	text-align: center;
 }
+/* Form */
+.form-container{
+	display: flex;
+	background-color: var(--primary);
+	color: var(--secondary);
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	border-radius: 1em;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%);
+	justify-content: center;
+	border: 1px solid var(--secondary);
+}
+
+.form-container .form-title{
+	padding-top: 10px;
+}
+
+.form-container .text{
+	margin-left: 1em;
+}
+
+.button{
+	color: var(--primary);
+	width: 75px;
+	height: 25px;
+	border-radius: 5px;
+	background-color: var(--secondary);
+}
 
 /* Desktop */
 @media only screen and (min-width: 835px){
@@ -237,8 +248,8 @@ ul .submenu{
 		
 	}
 	
-	.bg-1a{
-		background-image: url(../assets/background/bg-1a.jpg);
+	.bg-4b{
+		background-image: url(../assets/background/bg-4a.jpg);
 		background-repeat: no-repeat;
 		background-position: 0px 0px;
 		background-attachment: fixed;
