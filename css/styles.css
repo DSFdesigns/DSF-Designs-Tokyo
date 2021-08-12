@@ -22,8 +22,8 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.bg-1b{
-	background-image: url(../assets/background/bg-1b.jpg);
+.bg-1a{
+	background-image: url(../assets/background/bg-1a.jpg);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	background-attachment: fixed;
@@ -34,8 +34,8 @@ body{
 	background-size: calc(100vw) calc(100vh);
 }
 
-.bg-4a{
-	background-image: url(../assets/background/bg-4b.jpg);
+.bg-2a{
+	background-image: url(../assets/background/bg-2a.jpg);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	background-attachment: fixed;
@@ -219,9 +219,9 @@ ul .submenu{
 	height: 200px;
 	position: absolute;
 	border-radius: 1em;
-	top: 40%;
+	top: 50%;
 	left: 50%;
-	transform: translate(-50%);
+	transform: translate(-50%, -50%);
 	justify-content: center;
 	border: 1px solid var(--secondary);
 }
@@ -248,8 +248,21 @@ ul .submenu{
 		
 	}
 	
-	.bg-4b{
-		background-image: url(../assets/background/bg-4a.jpg);
+	.bg-1b{
+		background-image: url(../assets/background/bg-1b.jpg);
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+		background-attachment: fixed;
+		background-color: #333;
+		-webkit-background-size: calc(100vw) calc(100vh);
+		-moz-background-size: calc(100vw) calc(100vh);
+		-o-background-size: calc(100vw) calc(100vh);
+		background-size: calc(100vw) calc(100vh);
+	}
+	
+		
+	.bg-2b{
+		background-image: url(../assets/background/bg-2b.jpg);
 		background-repeat: no-repeat;
 		background-position: 0px 0px;
 		background-attachment: fixed;
