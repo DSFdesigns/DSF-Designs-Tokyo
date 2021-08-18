@@ -57,25 +57,13 @@
 	</div>
 	
 	<section class="form-container">
-		<form action="./php/mail.php" method="post">
+		<form>
 			<h1 class="form-title">Contact Info</h1>
-				<div class="text">
-					<label for="name">Name:</label>
-					<input type="text" name="name" placeholder="Full name" required>
-				</div>
-				<div class="text">
-					<label for="mailform">Email:</label>
-					<input type="text" name="mail" placeholder="Your e-mail" required>
-				</div>
-				<div class="text">
-					<label for="subject">Subject:</label>
-					<input type="text" name="subject" placeholder="Subject" required>
-				</div>
-				<div class="text">
-					<label for="message">Message:</label>
-					<textarea name="message" placeholder="Message..." required></textarea>
-				</div>
-					<button class="button" type="submit" name="Submit">Submit</button>
+				<input type="text" class="input-field" placeholder="Your Name">
+				<input type="email" class="input-field" placeholder="Your Email">
+				<input type="text" class="input-field" placeholder="Subject">
+				<textarea type="text" class="input-field textarea-field" placeholder="Your Message..."></textarea>
+				<button type="button" class="btn">Send Message</button>
 		</form>
 	</section>
 	
