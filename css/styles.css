@@ -328,7 +328,7 @@ ul .submenu{
 	
 	/* Form */
 	.form-container{
-		width: 400px;
+		width: 300px;
 		background-color: var(--primary);
 		box-shadow: 0 0 20px 0 #999;
 		top: 50%;
@@ -345,13 +345,13 @@ ul .submenu{
 	}
 
 	form{
-		margin: 50px;
+		margin: 20px 25px;
 	}
 
 	.input-field{
-		width: 300px;
+		width: 250px;
 		height: 40px;
-		margin-top: 20px;
+		margin-top: 10px;
 		padding-left: 10px;
 		padding-right: 10px;
 		border: 1px solid #777;
