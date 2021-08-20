@@ -369,7 +369,7 @@ ul .submenu{
 	.btn{
 		border-radius: 10px;
 		color: var(--primary);
-		margin-top: 18px;
+		margin-top: 10px;
 		padding: 10px;
 		background-color: var(--secondary);
 		font-size: 12px;
