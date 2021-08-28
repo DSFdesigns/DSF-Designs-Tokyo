@@ -118,7 +118,7 @@ footer p{
 .logo{
 	display: flex;
 	width: 150px;
-	margin: 1em;
+	margin: 1em 1em 1em 2em;
 }
 
 .nav-header{
