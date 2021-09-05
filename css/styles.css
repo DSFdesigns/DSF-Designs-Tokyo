@@ -196,20 +196,6 @@ ul .submenu{
 	width: auto;
 }
 
-.grid img{
-	width: 150px;
-	height: 150px;
-}
-
-.grid{
-	display: grid;
-  grid-template-columns: 33%, 33%, 33%;
-  grid-gap: 20px;
-  justify-content: center;
-	text-align: center;
-}
-
-
 /* Desktop */
 @media only screen and (min-width: 835px){
 	body{

@@ -1,0 +1,34 @@
+:root{
+	--primary: #263959;
+	--secondary: #e4e7ec;
+	--hover: #344259;
+	--active: #7b90d2;
+	--ahover: #2ea9df;
+	--lihover: #2f436e;
+	--background: #333333;
+}
+
+.gallery-container{
+	display: grid;
+	background-color: #333;
+	grid-template-columns: repeat(3, auto);
+	grid-template-rows: repeat(3, auto);
+	grid-gap: 1em;
+	margin: 1em;
+}
+
+.gato-1{
+
+}
+
+.text{
+	color: #fff;
+}
+
+h2{
+	font-size: 20px;
+}
+
+.image{
+	width: auto;
+}
