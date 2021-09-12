@@ -22,6 +22,7 @@
 	position: absolute;
 	top: 70px;
 	margin: auto auto;
+	z-index: -1;
 }
 
 .gallery-container img{
