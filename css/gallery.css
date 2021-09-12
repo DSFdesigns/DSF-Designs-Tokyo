@@ -9,26 +9,23 @@
 }
 
 .gallery-container{
+	background-color: ;
 	display: grid;
-	background-color: #333;
-	grid-template-columns: repeat(3, auto);
-	grid-template-rows: repeat(3, auto);
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 	grid-gap: 1em;
-	margin: 1em;
+	align-items: center;
+	width: 90%;
+	padding: 2em;
+	position: absolute;
+	top: 70px;
+	margin: auto auto;
 }
 
-.gato-1{
-
-}
-
-.text{
-	color: #fff;
-}
-
-h2{
-	font-size: 20px;
-}
-
-.image{
-	width: auto;
+.gallery-container img{
+	border-radius: 1em;
+	box-shadow: 3px 3px 5px #000;
+	width: 100%;
 }
