@@ -9,7 +9,7 @@
 }
 
 .gallery-container{
-	background-color: red;
+	background-color: var(--secondary);
 	display: grid;
 	justify-content: center;
 	align-items: center;
@@ -29,5 +29,5 @@
 .gallery-container img{
 	border-radius: 1em;
 	box-shadow: 3px 3px 5px #000;
-	width: 100%;
+	width: 90%;
 }
