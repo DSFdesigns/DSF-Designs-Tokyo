@@ -99,6 +99,24 @@ body{
 	padding: 0 2em 0 1.5em;
 }
 
+#main-content{
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--clr-background);
+}
+
+.bg-1a{
+	background-image: url(../assets/background/bg-1a.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-attachment: fixed;
+	background-color: #333;
+	-webkit-background-size: calc(100vw) calc(100vh);
+	-moz-background-size: calc(100vw) calc(100vh);
+	-o-background-size: calc(100vw) calc(100vh);
+	background-size: calc(100vw) calc(100vh);
+}
+
 #footer{
 	display: flex:
 	justify-content: center;
