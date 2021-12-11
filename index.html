@@ -2,75 +2,76 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<title>DSF Designs Tokyo</title>
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css" />
 	<script src="scripts/script.js" defer></script>
 	<script src="https://kit.fontawesome.com/b3a5d57206.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="page-wrapper">
-<!-- Header Start -->
-		<header id="header">
-<!-- Logo Start -->
-				<img class="logo" src="assets/branding/dsf-logo-inline.png" alt="Logo" />
-<!-- Logo End -->
-<!-- Nav Toggle Start -->
-				<button class="nav-toggle" id="navToggle">
-					<i class="fas fa-bars"></i>
-				</button>
-<!-- Nav Toggle End -->
-<!-- Navigation Start -->
-			<nav id="main-nav">
-				<ul class="nav-links">
-					<li class="nav-link"><a class="active" href="#">HOME</a></li>
-					<li class="nav-link"><a href="#">ABOUT</a></li>
-					<li class="nav-link"><a href="#">WORK</a><i class="fa fa-caret-down"></i>
-						<ul class="sub-links">
-							<li class="sub-link"><a href="#">HTML EMAILS</a></li>
-							<li class="sub-link"><a href="#">WEBSITES</a></li>
-							<li class="sub-link"><a href="#">PROTOTYPES</a></li>
-							<li class="sub-link"><a href="#">APIs</a></li>
-						</ul>
-					</li>
-					<li class="nav-link"><a href="#">GALLERIES</a><i class="fa fa-caret-down"></i>
-						<ul class="sub-links">
-							<li class="sub-link"><a href="#">GATO</a></li>
-							<li class="sub-link"><a href="#">MANHOLES</a></li>
-							<li class="sub-link"><a href="#">KAMON</a></li>
-							<li class="sub-link"><a href="#">SHRINES</a></li>
-						</ul>
-					</li>
-					<li class="nav-link"><a href="#">BLOGS</a><i class="fa fa-caret-down"></i>
-						<ul class="sub-links">
-							<li class="sub-link"><a href="#">YOUTUBE</a></li>
-							<li class="sub-link"><a href="#">TRAVEL</a></li>
-							<li class="sub-link"><a href="#">MY GEAR</a></li>
-						</ul>
-					</li>
-					<li class="nav-link cta"><a href="#">CONTACT</a></li>
-				</ul>
-					<img class="jp-1" src="assets/img/japan.svg" alt="Japan" />
-			</nav>
-<!-- Navigation End -->
-		</header>
-<!-- Header End -->
-		<main id="main-content" class="bg-1a bg-1b">
-			<div class="overlay">
-				<div class="heading">
-					<h1>Welcome to DSF Designs Tokyo!</h1>
-				</div>
+	<header id="header-container">
+		
+		<div class="logo">
+			<img src="assets/branding/dsf-logo-inline.svg" alt="logo" />
 		</div>
-		</main>
-<!-- Footer Start -->
-		<footer id="footer">
-			<p class="footer-description">
-				DSF Designs Tokyo<br>
-				<small>&copy;2021 DSF Designs</small>
-			</p>
-		</footer>
-<!-- Footer End -->
-	</div>
+		
+		<button class="nav-toggle" id="navToggle">
+			<i class="fas fa-bars"></i>
+		</button>
+		
+		<nav class="navigation">
+			<ul class="main-menu">
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="work.html">Work <i class="fa fa-caret-down"></i></a>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="#">Html Emails</a></li>
+							<li><a href="#">Landing Pages</a></li>
+							<li><a href="#">Prototypes</a></li>
+							<li><a href="#">Web Apps</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Galleries <i class="fa fa-caret-down"></i></a>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="#">Gato</a></li>
+							<li><a href="#">Samurai Kamon</a></li>
+							<li><a href="#">Manhole Covers</a></li>
+							<li><a href="#">Shrines/Kofun</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Blogs <i class="fa fa-caret-down"></i></a>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="#">Youtube</a></li>
+							<li><a href="#">Travel</a></li>
+							<li><a href="#">My Gear</a></li>
+					</ul>
+					</div>
+				</li>
+				<li><a class="cta-button" href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="language">
+			<img src="assets/img/japan.svg" href="index_jp.html" alt="japanese" />
+		</div>
+	</header>
+	
+	<main id="main" class="bg-1a bg-1b">
+		<div class="overlay">
+			<h1 class="hero-text">Welcome to DSF Desings!</h1>
+		</div>
+	</main>
+	
+	<footer class="footer">
+		<p>
+			DSF Designs Tokyo<br>
+			<small>&copy;2021 DSF Designs</small>
+		</p>
+	</footer>
 </body>
 </html>
