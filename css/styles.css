@@ -65,6 +65,10 @@ body{
 	font-size: 1.2rem;
 }
 
+.navigation .active{
+	color: var(--clr-active);
+}
+
 .navigation a:hover{
 	background-color: var(--clr-lihover);
 	color: var(--clr-ahover);
@@ -82,8 +86,31 @@ body{
 }
 
 /* Sub Menu Sytles*/
-.dropdown-menu{
+.navigation li:hover .dropdown-menu > li{
+	display: block;
+	flex-direction: column;
+	top: 0;
+}
+
+.dropdown-menu li{
 	display: none;
+	position: absolute;
+	top: 0;
+}
+
+.dropdown-menu{
+	display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+}
+
+.dropdown-menu li{
+	position: relative;
+}
+
+.dropdown-menu li a{
+	width: 200px;
 }
 /* Main Content Sytles */
 .bg-1a{
