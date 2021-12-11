@@ -27,7 +27,6 @@ body{
 	display: flex;
 	align-items: center;
 	height: 80px;
-	width: 100%;
 }
 
 .logo img{
@@ -62,7 +61,7 @@ body{
 	background-color: var(--clr-primary);
 	color: var(--clr-secondary);
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 1rem;
 }
 
 .navigation a:hover{
@@ -75,6 +74,7 @@ body{
 	justify-content: flex-end;
 	list-style: none;
 	padding-right: 1.5em;
+	width: 100%;
 }
 
 .fa{
