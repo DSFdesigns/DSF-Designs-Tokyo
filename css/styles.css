@@ -27,12 +27,13 @@ body{
 	display: flex;
 	align-items: center;
 	height: 80px;
+	width: 100vw;
 }
 
 .logo img{
 	display: flex;
 	height: 60px;
-	padding-left: 1.5em;
+	padding-left: 1.5rem;
 	cursor: pointer;
 }
 
@@ -49,7 +50,7 @@ body{
 .navigation{
 	background-color: var(--clr-primary);
 	height: 80px;
-	width: 100%;
+	width: 100vw;
 }
 
 .navigation a{
@@ -57,11 +58,11 @@ body{
 	align-items: center;
 	justify-content: center;
 	height: 80px;
-	width: 150px;
+	width: 120px;
 	background-color: var(--clr-primary);
 	color: var(--clr-secondary);
 	text-decoration: none;
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 .navigation a:hover{
@@ -74,7 +75,6 @@ body{
 	justify-content: flex-end;
 	list-style: none;
 	padding-right: 1.5em;
-	width: 100%;
 }
 
 .fa{
