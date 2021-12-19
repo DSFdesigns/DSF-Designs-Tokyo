@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-480,-7.10543e-15)">
+        <g id="Artboard1" transform="matrix(1.47277,0,0,0.652174,53.0198,33.2609)">
+            <rect x="-36" y="-51" width="808" height="460" style="fill:none;"/>
+            <g id="あ">
+            </g>
+            <g id="あ1" serif:id="あ">
+            </g>
+            <g id="あ2" serif:id="あ" transform="matrix(0.678992,0,0,1.53333,289.916,-51)">
+                <g transform="matrix(1.25169,0,0,1.49501,-24.8326,-46.9572)">
+                    <path d="M179.623,43.611C179.623,36.877 173.093,31.409 165.049,31.409L34.412,31.409C26.369,31.409 19.839,36.877 19.839,43.611L19.839,219.876C19.839,226.61 26.369,232.078 34.412,232.078L165.049,232.078C173.093,232.078 179.623,226.61 179.623,219.876L179.623,43.611Z" style="fill:rgb(38,57,89);"/>
+                </g>
+                <g transform="matrix(0.764954,0,0,0.764954,-15.6166,75.2677)">
+                    <text x="37.279px" y="110.768px" style="font-family:'AppleSDGothicNeo-Regular', 'Apple SD Gothic Neo';font-size:261.454px;fill:rgb(228,231,236);">う</text>
+                </g>
+                <g transform="matrix(1,0,0,1,5.12092,-10.1757)">
+                    <text x="83.603px" y="218.244px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:36px;fill:rgb(228,231,236);">U</text>
+                    <text x="10.153px" y="246.244px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:28px;fill:rgb(228,231,236);">Pronounced</text>
+                    <text x="40.255px" y="282.244px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:36px;fill:rgb(228,231,236);">(ooh)</text>
+                </g>
+                <g transform="matrix(1.37008,0.472063,-0.843116,2.44699,-9.3279,-72.2135)">
+                    <path d="M88.596,15.652L88.596,14.848L100.77,14.848L100.77,14.102L102.821,15.25L100.77,16.399L100.77,15.652L88.596,15.652Z" style="fill:rgb(228,231,236);"/>
+                </g>
+                <g transform="matrix(1.4355,-0.198229,0.354041,2.56384,-48.1817,64.2473)">
+                    <path d="M88.596,15.652L88.596,14.848L100.77,14.848L100.77,14.102L102.821,15.25L100.77,16.399L100.77,15.652L88.596,15.652Z" style="fill:rgb(228,231,236);"/>
+                </g>
+                <g transform="matrix(0.278994,0,0,0.278994,145.235,-19.192)">
+                    <text x="-68.587px" y="136.462px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:64.518px;fill:rgb(228,231,236);">1</text>
+                </g>
+                <g transform="matrix(0.278994,0,0,0.278994,86.8793,57.2966)">
+                    <text x="-68.587px" y="136.462px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:64.518px;fill:rgb(228,231,236);">2</text>
+                </g>
+            </g>
+            <g id="あ3" serif:id="あ">
+            </g>
+            <g id="あ4" serif:id="あ">
+            </g>
+        </g>
+    </g>
+</svg>

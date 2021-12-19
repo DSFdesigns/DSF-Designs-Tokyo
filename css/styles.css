@@ -103,6 +103,7 @@ body{
   flex-direction: column;
   position: absolute;
   width: 100%;
+	z-index: 1;
 }
 
 .dropdown-menu li{
@@ -111,6 +112,7 @@ body{
 
 .dropdown-menu li a{
 	width: 200px;
+	height: 50px;
 }
 /* Main Content Sytles */
 .bg-1a{
@@ -155,4 +157,73 @@ body{
 .footer small{
 	font-size: 0.8rem;
 }
+/* Contact Styles */
+.bg-2a{
+	background-image: url(../assets/background/bg-2a.jpg);
+	background-size: cover;
+	background-position: center;
+	height: calc(100vh - 80px);
+	width: 100vw;
+	overflow: auto;
+}
+.overlay{
+	height: calc(100vh - 80px);
+	width: 100vw;
+	background-color: rgba(0,0,0,0.5);
+}
+/* Form Styles */
+	.form-container{
+		width: 300px;
+		background-color: var(--clr-primary);
+		box-shadow: 0 0 20px 0 #999;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		border-radius: 1em;
+	}
+
+	.form-title{
+		text-align: center;
+		font-size: 1.5em;
+		color: var(--clr-secondary);
+		padding: 0 0 0.5em 0;
+	}
+
+	form{
+		margin: 20px 25px;
+	}
+
+	.input-field{
+		width: 250px;
+		height: 40px;
+		margin-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border: 1px solid #777;
+		border-radius: 10px;
+		outline: none;
+		color: #000;
+		font-size: 0.9em;
+	}
+
+	.textarea-field{
+		height: 100px;
+		padding-top: 10px;
+	}
+
+	.btn{
+		border-radius: 10px;
+		color: var(--clr-primary);
+		margin-top: 10px;
+		padding: 10px;
+		background-color: var(--clr-secondary);
+		font-size: 1em;
+		border: none;
+		cursor: pointer;
+		width: 250px;
+	}
 /* Media Queries */
+@media and screen (min-width: 600px){
+	
+}
