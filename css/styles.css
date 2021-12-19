@@ -41,6 +41,11 @@ body{
 	display: none;
 }
 
+.language a img{
+	display: flex;
+	align-items: center;
+}
+
 .language img{
 	height: 30px;
 	padding-right: 1.5em;
