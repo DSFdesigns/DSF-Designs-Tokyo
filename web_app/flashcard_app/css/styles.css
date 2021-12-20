@@ -82,6 +82,7 @@ nav ul li a{
 	text-align: center;
 	border-radius: 1em;
 	margin: 5% auto;
+	padding: 0 1em;
 }
 
 .kana{
@@ -90,12 +91,26 @@ nav ul li a{
 }
 
 .img img{
-	width: 200px;
+	width: 180px;
 }
 
 .kana_type{
 	color: var(--clr-pimary);
 	font-size: 1.5em;
+}
+
+.btn{
+	padding: 0.5em 0;
+}
+
+.btn input{
+	width: 200px;
+	height: 50px;
+	border: none;
+	border-radius: 2em;
+	background-color: var(--clr-primary);
+	color: var(--clr-secondary);
+	font-size: 1em;
 }
 
 #footer{

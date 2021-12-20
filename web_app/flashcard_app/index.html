@@ -6,19 +6,27 @@
 	<title>Japanese Kana Flashcards</title>
 	<link rel="stylesheet" href="css/styles.css" type="text/css"/>
 </head>
+
+<script>
+function playMusic(){
+  var music = new Audio('./audio/A.wav');
+  music.play();
+}
+</script>
+
 <body>
 	<header id="header">
 		<nav>
 			<ul>
 				<li><a href="/../../index.html/">Home</a></li>
-				<li><a href="hiragana.html">Hiragana (ひらがな)</a></li>
-				<li><a href="katakana.html">Katakana (カタカナ)</a></li>
+				<li><a href="hiragana.html">Hiragana</a></li>
+				<li><a href="katakana.html">Katakana</a></li>
 			</ul>
 		</nav>
 	</header>
 	
 	<div class="hero-text">
-		<h1>Hiragana and Katakana</h1>
+		<h1>Hiragana (ひらがな)</h1>
 	</div>
 	
 	<main class="main-content">
@@ -28,7 +36,9 @@
 					<img src="img/a.svg" alt="あ" />
 				</div>
 				<div class="kana_type">
-					<h3>Hiragana (ひらがな)</h3>
+				</div>
+				<div class="btn">
+					<input type="button" value="Play" onclick="playMusic()" />
 				</div>
 			</div>
 			
@@ -36,6 +46,39 @@
 				<h3 class="kana">い</h3>
 				<div class="img">
 					<img src="img/i.svg" alt="い" />
+				</div>
+				<div class="btn">
+					<input type="button" value="Play" onclick="playMusic()" />
+				</div>
+			</div>
+			
+			<div class="card">
+				<h3 class="kana">う</h3>
+				<div class="img">
+					<img src="img/u.svg" alt="う" />
+				</div>
+				<div class="btn">
+					<input type="button" value="Play" onclick="playMusic()" />
+				</div>
+			</div>
+			
+			<div class="card">
+				<h3 class="kana">え</h3>
+				<div class="img">
+					<img src="img/e.svg" alt="い" />
+				</div>
+				<div class="btn">
+					<input type="button" value="Play" onclick="playMusic()" />
+				</div>
+			</div>
+			
+			<div class="card">
+				<h3 class="kana">お</h3>
+				<div class="img">
+					<img src="img/o.svg" alt="い" />
+				</div>
+				<div class="btn">
+					<input type="button" value="Play" onclick="playMusic()" />
 				</div>
 			</div>
 	</main>
