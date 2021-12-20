@@ -63,17 +63,14 @@ nav ul li a{
 }
 
 .main-content{
-	display: flex;
+	display: grid;
+	width: 90%;
+	margin: auto;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 	text-align: center;
-	width: 100vw;
-	height: calc(100vh - 60px);
 	background-color: var(--clr-secondary);
-}
-
-.main-content h1{
-	color: var(--clr-primary);
-	font-size: 2em;
-	margin: 2% auto;
+	grid-gap: 1em;
 }
 
 .card{
@@ -82,7 +79,6 @@ nav ul li a{
 	text-align: center;
 	border-radius: 1em;
 	margin: 5% auto;
-	padding: 0 1em;
 }
 
 .kana{
@@ -91,7 +87,7 @@ nav ul li a{
 }
 
 .img img{
-	width: 180px;
+	width: 1fr;
 }
 
 .kana_type{
@@ -100,11 +96,11 @@ nav ul li a{
 }
 
 .btn{
-	padding: 0.5em 0;
+	padding: 5px 0;
 }
 
 .btn input{
-	width: 200px;
+	width: 100%;
 	height: 50px;
 	border: none;
 	border-radius: 2em;
