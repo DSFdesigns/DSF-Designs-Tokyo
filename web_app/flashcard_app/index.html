@@ -3,34 +3,45 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<title>Japanese Kana Flashcards</title>
-	<link rel="stylesheet" href="css/styles.css" type="text/css"/>
+	<link rel="stylesheet" href="../../css/styles.css" type="text/css"/>
+	<script src="./scripts/script.js" defer></script>
+	<script src="https://kit.fontawesome.com/b3a5d57206.js" crossorigin="anonymous"></script>
 </head>
-
-<script>
-function playMusic(){
-  var music = new Audio('./audio/A.wav');
-  music.play();
-}
-</script>
-
 <body>
-	<header id="header">
-		<nav>
-			<ul>
-				<li><a href="/../../index.html/">Home</a></li>
+	<header id="header-container">
+		
+		<div class="logo">
+			<a href="index.html">
+				<img src="../../assets/branding/dsf-logo-inline.svg" alt="logo" />
+			</a>
+		</div>
+		
+		<button class="nav-toggle" id="navToggle">
+			<i class="fas fa-bars"></i>
+		</button>
+		
+		<nav class="navigation">
+			<ul class="main-menu">
+				<li><a href="../../index.html/">Home</a></li>
 				<li><a href="hiragana.html">Hiragana</a></li>
 				<li><a href="katakana.html">Katakana</a></li>
 			</ul>
 		</nav>
+		<div class="language">
+			<a href="index.html">
+				<img src="../../assets/img/japan.svg" href="index_jp.html" alt="japanese" />
+			</a>
+		</div>
 	</header>
-	
-	<div class="hero-text">
-		<h1>Hiragana (ひらがな)</h1>
+
+	<div class="overlay">
+		<h1 class="hero-text">Hiragana (ひらがな)</h1>
 	</div>
-	
-	<main class="main-content">
-		
+
+	<main id="main-content">
+<!-- Main content
 			<div class="card">
 				<h3 class="kana">あ</h3>
 				<div class="img">
@@ -132,10 +143,64 @@ function playMusic(){
 					<input type="button" value="Play" onclick="playMusic()" />
 				</div>
 			</div>
+			
+			<div class="card">
+				<h3 class="kana">さ</h3>
+				<div class="img">
+					<img src="img/o.svg" alt="い" />
+				</div>
+				<div class="btn">
+					<input type="button" value="Play" onclick="playMusic()" />
+				</div>
+			</div>
+			
+			<div class="card">
+				<h3 class="kana">し</h3>
+				<div class="img">
+					<img src="img/o.svg" alt="い" />
+				</div>
+				<div class="btn">
+					<input type="button" value="Play" onclick="playMusic()" />
+				</div>
+			</div>
+			
+			<div class="card">
+				<h3 class="kana">す</h3>
+				<div class="img">
+					<img src="img/o.svg" alt="い" />
+				</div>
+				<div class="btn">
+					<input type="button" value="Play" onclick="playMusic()" />
+				</div>
+			</div>
+			
+			<div class="card">
+				<h3 class="kana">せ</h3>
+				<div class="img">
+					<img src="img/o.svg" alt="い" />
+				</div>
+				<div class="btn">
+					<input type="button" value="Play" onclick="playMusic()" />
+				</div>
+			</div>
+			
+			<div class="card">
+				<h3 class="kana">そ</h3>
+				<div class="img">
+					<img src="img/o.svg" alt="い" />
+				</div>
+				<div class="btn">
+					<input type="button" value="Play" onclick="playMusic()" />
+				</div>
+			</div>
+-->
 	</main>
-	
-	<footer id="footer">
-		<p>&copy;2021 JP Flashcards</p>
+
+	<footer class="footer">
+		<p>
+			DSF Designs Tokyo<br>
+			<small>&copy;2021 JP Flashcards</small>
+			</p>
 	</footer>
 </body>
 </html>
