@@ -228,6 +228,38 @@ body{
 		cursor: pointer;
 		width: 250px;
 	}
+	
+/* 404 Not Styles */
+.not-found{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100Vw;
+	height: calc(100vh - 130px);
+}
+
+.container{
+	background-color: var(--clr-primary);
+	border-radius: 1rem;
+}
+
+.not-found h1{
+	color: var(--clr-secondary);
+	font-size: 2rem;
+	padding-top: 1rem;
+}
+.not-found p{
+	color: var(--clr-secondary);
+	font-size: 1.2rem;
+	padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.not-found a{
+	color: red;
+}
+
 /* Media Queries */
 @media and screen (min-width: 600px){
 	
