@@ -263,16 +263,19 @@ body{
 /* Gallery Sytles */
 #gato-gallery{
 	display: grid;
+	align-content: space-between;
 	margin: auto;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	width: 80%;
+	width: 100%;
+	grid-gap: 1em;
+	height: calc(100vh - 130px);
 }
 
 #gato-gallery .gato{
-	width: 250px;
-	padding: 2em;
+	width: 65%;
 	border-radius: 1em;
+	margin: auto;
 }
 
 /* Media Queries */
