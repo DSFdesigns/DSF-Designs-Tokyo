@@ -17,7 +17,7 @@
 }
 
 body{
-	background-color: var(--clr-background);
+	background-color: var(--clr-secondary);
 	font-size: 18px;
 	overflow: hidden;
 }
@@ -258,6 +258,21 @@ body{
 
 .not-found a{
 	color: red;
+}
+
+/* Gallery Sytles */
+#gato-gallery{
+	display: grid;
+	margin: auto;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	width: 80%;
+}
+
+#gato-gallery .gato{
+	width: 250px;
+	padding: 2em;
+	border-radius: 1em;
 }
 
 /* Media Queries */
