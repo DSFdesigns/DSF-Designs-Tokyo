@@ -240,7 +240,7 @@ body{
 	height: calc(100vh - 130px);
 }
 
-.container{
+.not-found-container{
 	background-color: var(--clr-primary);
 	border-radius: 1rem;
 }
