@@ -177,57 +177,57 @@ body{
 	background-color: rgba(0,0,0,0.5);
 }
 /* Form Styles */
-	.form-container{
-		width: 300px;
-		background-color: var(--clr-primary);
-		box-shadow: 0 0 20px 0 #999;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		position: absolute;
-		border-radius: 1em;
-	}
+.form-container{
+	width: 300px;
+	background-color: var(--clr-primary);
+	box-shadow: 0 0 20px 0 #999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	border-radius: 1em;
+}
 
-	.form-title{
-		text-align: center;
-		font-size: 1.5em;
-		color: var(--clr-secondary);
-		padding: 0 0 0.5em 0;
-	}
+.form-title{
+	text-align: center;
+	font-size: 1.5em;
+	color: var(--clr-secondary);
+	padding: 0 0 0.5em 0;
+}
 
-	form{
-		margin: 20px 25px;
-	}
+form{
+	margin: 20px 25px;
+}
 
-	.input-field{
-		width: 250px;
-		height: 40px;
-		margin-top: 10px;
-		padding-left: 10px;
-		padding-right: 10px;
-		border: 1px solid #777;
-		border-radius: 10px;
-		outline: none;
-		color: #000;
-		font-size: 0.9em;
-	}
+.input-field{
+	width: 250px;
+	height: 40px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 10px;
+	outline: none;
+	color: #000;
+	font-size: 0.9em;
+}
 
-	.textarea-field{
-		height: 100px;
-		padding-top: 10px;
-	}
+.textarea-field{
+	height: 100px;
+	padding-top: 10px;
+}
 
-	.btn{
-		border-radius: 10px;
-		color: var(--clr-primary);
-		margin-top: 10px;
-		padding: 10px;
-		background-color: var(--clr-secondary);
-		font-size: 1em;
-		border: none;
-		cursor: pointer;
-		width: 250px;
-	}
+.btn{
+	border-radius: 10px;
+	color: var(--clr-primary);
+	margin-top: 10px;
+	padding: 10px;
+	background-color: var(--clr-secondary);
+	font-size: 1em;
+	border: none;
+	cursor: pointer;
+	width: 250px;
+}
 	
 /* 404 Not Styles */
 .not-found{
@@ -263,19 +263,21 @@ body{
 /* Gallery Sytles */
 #gato-gallery{
 	display: grid;
-	align-content: space-between;
-	margin: auto;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	width: 100%;
-	grid-gap: 1em;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin: 0 auto;
+	width: 90%;
 	height: calc(100vh - 130px);
+	grid-gap: 10px;
+	background-color: var(--clr-background);
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr)
 }
 
-#gato-gallery .gato{
-	width: 65%;
-	border-radius: 1em;
+.grid-image{
 	margin: auto;
+	width: 70%;
 }
 
 /* Media Queries */
