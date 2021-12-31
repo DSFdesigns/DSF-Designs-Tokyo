@@ -54,7 +54,7 @@ body{
 .navigation{
 	background-color: var(--clr-primary);
 	height: 80px;
-	width: 100vw;
+	width: 1000%;
 }
 
 .navigation a{
@@ -127,6 +127,7 @@ body{
 	width: 100vw;
 	overflow: auto;
 }
+
 .overlay{
 	height: calc(100vh - 80px);
 	width: 100vw;
@@ -150,6 +151,8 @@ body{
 	width: 100%;
 	position: absolute;
 	bottom: 0;
+	width: 100vw;
+	position: relative;
 }
 
 .footer p{
@@ -278,7 +281,7 @@ form{
 }
 
 .grid-image img{
-	width: 250px;
+	width: 200px;
 	border-radius: 1em;
 }
 
