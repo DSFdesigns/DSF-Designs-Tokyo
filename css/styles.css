@@ -19,7 +19,6 @@
 body{
 	background-color: var(--clr-secondary);
 	font-size: 18px;
-	overflow: hidden;
 }
 
 #header-container{
@@ -149,7 +148,7 @@ body{
 	background-color: var(--clr-primary);
 	height: 50px;
 	width: 100%;
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 }
 
