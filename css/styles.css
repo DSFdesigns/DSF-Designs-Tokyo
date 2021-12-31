@@ -55,7 +55,7 @@ body{
 .navigation{
 	background-color: var(--clr-primary);
 	height: 80px;
-	width: 100vw;
+	width: 1000%;
 }
 
 .navigation a{
@@ -148,9 +148,8 @@ body{
 	text-align: center;
 	background-color: var(--clr-primary);
 	height: 50px;
-	width: 100%;
-	position: fixed;
-	bottom: 0;
+	width: 100vw;
+	position: relative;
 }
 
 .footer p{
@@ -279,7 +278,7 @@ form{
 }
 
 .grid-image img{
-	width: 250px;
+	width: 200px;
 	border-radius: 1em;
 }
 

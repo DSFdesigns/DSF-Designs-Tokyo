@@ -1,0 +1,35 @@
+/* General Styles */
+:root{
+	--clr-primary: #263959;
+	--clr-secondary: #e4e7ec;
+	--clr-hover: #344259;
+	--clr-active: #7b90d2;
+	--clr-ahover: #2ea9df;
+	--clr-lihover: #2f436e;
+	--clr-background: #333333;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 20px;
+}
+
+.header-container{
+	width: 100vw;
+	height: 80px;
+	background-color: var(--clr-primary);
+}
+
+.logo img{
+	height: 60px;
+	cursor: pointer;
+}
+/* Navigation Styles */
+
+/* Footer Styles */
+
