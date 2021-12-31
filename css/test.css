@@ -35,12 +35,6 @@ body{
 
 .logo{
 	display: flex;
-	align-items: center;
-	height: 60px;
-}
-
-.logo img{
-	display: flex;
 	height: 50px;
 	cursor: pointer;
 	margin-left: 1rem;
@@ -50,13 +44,7 @@ body{
 	display: none;
 }
 
-.language{
-	display: flex;
-	align-items: center;
-	height: 60px;
-}
-
-.language img{
+.language {
 	display: flex;
 	align-items: center;
 	height: 30px;
@@ -156,7 +144,7 @@ body{
 	#main-navigation .nav-links {
 		display: none;
 	}
-	.language img{
+	.language{
 		display: none;
 	}
 	
