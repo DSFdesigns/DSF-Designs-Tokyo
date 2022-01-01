@@ -93,6 +93,7 @@ body{
 /* Sublink Styles */
 #main-navigation li:hover .sub-links > .sub-link{
 	display: block;
+	max-width: 200px;
 }
 
 .sub-links .sub-link{
@@ -105,17 +106,18 @@ body{
 	display: flex;
 	flex-direction:	column;
 	position: absolute;
+	z-index: 1;
+	width: 200px;
 }
-
 .sub-links .sub-link{
-		position: relative;
+	position: relative;
+	width: auto;
 }
 
 .sub-links .sub-link a{
 	display: block;
+	width: 200px;
 }
-
-
 
 /* Main Content styles */
 #main-content{
