@@ -73,7 +73,7 @@ body{
 	text-decoration: none;
 	color: var(--clr-secondary);
 	background-color: var(--clr-primary);
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	text-transform: uppercase;
 }
 
@@ -93,8 +93,6 @@ body{
 /* Sublink Styles */
 #main-navigation li:hover .sub-links > .sub-link{
 	display: block;
-	flex-direction: column;
-	top: 0;
 }
 
 .sub-links .sub-link{
@@ -105,20 +103,20 @@ body{
 
 .sub-links{
 	display: flex;
-	flex-direction: column;
+	flex-direction:	column;
 	position: absolute;
-	z-index: 1;
-	width: 200px;
 }
 
 .sub-links .sub-link{
-	position: relative;
+		position: relative;
 }
 
 .sub-links .sub-link a{
-	width: 200px;
-	height: 50px;
+	display: block;
 }
+
+
+
 /* Main Content styles */
 #main-content{
 	min-height: calc(100vh - 110px);
