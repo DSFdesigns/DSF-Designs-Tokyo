@@ -54,29 +54,30 @@ body{
 	width: 100%;
 }
 
-#main-navigation ul{
+#main-navigation .nav-links{
 	display: flex;
 	justify-content: flex-end;
 	list-style: none;
 }
 
-#main-navigation ul li{
+#main-navigation .nav-links li{
 	text-decoration: none;
 }
 
-#main-navigation ul li a{
+#main-navigation .nav-links li a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 60px;
-	width: 90px;
+	width: 110px;
 	text-decoration: none;
 	color: var(--clr-secondary);
+	background-color: var(--clr-primary);
 	font-size: 0.9rem;
 	text-transform: uppercase;
 }
 
-#main-navigation ul li a:hover{
+#main-navigation .nav-links li a:hover{
 	background-color: var(--clr-lihover);
 	color: var(--clr-secondary);
 }
@@ -85,11 +86,39 @@ body{
 	color: var(--clr-active);
 }
 
-/* Sublink Styles */
-#main-navigation .sub-links{
-	display: none;
+.fas{
+	padding-left: 0.5rem;
 }
 
+/* Sublink Styles */
+#main-navigation li:hover .sub-links > .sub-link{
+	display: block;
+	flex-direction: column;
+	top: 0;
+}
+
+.sub-links .sub-link{
+	display: none;
+	position: absolute;
+	top: 0;
+}
+
+.sub-links{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	z-index: 1;
+	width: 200px;
+}
+
+.sub-links .sub-link{
+	position: relative;
+}
+
+.sub-links .sub-link a{
+	width: 200px;
+	height: 50px;
+}
 /* Main Content styles */
 #main-content{
 	min-height: calc(100vh - 110px);
