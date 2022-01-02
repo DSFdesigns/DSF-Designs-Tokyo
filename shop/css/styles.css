@@ -31,11 +31,17 @@ body{
 }
 
 #header-container .sale{
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	color: var(--clr-secondary);
 }
 
-.navigation-container{
+.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+#navigation-container{
 	display: flex;
 	align-items: center;
 	width: 100vw;
@@ -43,23 +49,23 @@ body{
 	background-color: var(--clr-primary);
 }
 
-.navigation-container .logo{
+#navigation-container .logo{
 	height: 50px;
 	padding-left: 2em;
 }
 
-.navigation-container ul{
+#navigation-container ul{
 	display: flex;
 	justify-content: flex-end;
 	width: 100vw;
 }
 
-.navigation-container ul li{
+#navigation-container ul li{
 	display: block;
 	margin-right: 2em;
 }
 
-.navigation-container ul li a{
+#navigation-container ul li a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -70,7 +76,7 @@ body{
 	text-decoration: none;
 }
 
-.navigation-container ul li a:hover{
+#navigation-container ul li a:hover{
 	background-color: var(--clr-lihover);
 	color: var(--clr-ahover);
 }
@@ -82,8 +88,11 @@ body{
 	background-position: center;
 }
 
-.hero-container .hero-banner{
-
+.hero-container .hero-text{
+	color: var(--clr-primary);
+	padding: 2rem;
+	font-size: 2rem;
+	text-shadow: 1px 1px var(--clr-secondary);
 }
 
 .product-container{
@@ -172,7 +181,7 @@ footer p{
 	color: var(--clr-secondary);
 }
 
-@media(min-width: 800px){
+@media(max-width: 800px){
 	.product-card-container{
 	grid-template-columns: repeat(3, 1fr);
 	}
