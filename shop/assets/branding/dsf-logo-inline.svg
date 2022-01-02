@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 267 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.33333,0,0,1.33333,0,-2779.25)">
+        <g id="dsf-logo-inline" transform="matrix(0.301206,0,0,0.320636,0,1740.95)">
+            <rect x="0" y="1071.25" width="663.998" height="187.128" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="1071.25" width="663.998" height="187.128"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.62105,0,0,1.52282,22.5046,-921.46)">
+                    <g transform="matrix(0.640723,0,0,0.640723,95.7281,589.34)">
+                        <text x="50.431px" y="1193.13px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:95.894px;fill:rgb(228,231,236);">Designs</text>
+                        <text x="50.431px" y="1292.17px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:95.894px;fill:rgb(228,231,236);">T<tspan x="98.378px 151.709px " y="1292.17px 1292.17px ">ok</tspan>yo</text>
+                    </g>
+                    <g transform="matrix(0.695098,0,0,0.695098,-62.0901,556.05)">
+                        <circle cx="157.746" cy="1171" r="88.392" style="fill:rgb(228,231,236);"/>
+                    </g>
+                    <g transform="matrix(0.351371,-0.313264,0.313264,0.351371,-373.168,1013.45)">
+                        <text x="38.542px" y="1204.9px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:123.291px;fill:rgb(38,57,89);">DSF</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

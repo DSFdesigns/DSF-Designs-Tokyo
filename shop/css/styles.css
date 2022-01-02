@@ -1,0 +1,205 @@
+/* Global Styles */
+:root{
+	--clr-primary: #263959;
+	--clr-secondary: #e4e7ec;
+	--clr-hover: #344259;
+	--clr-active: #7b90d2;
+	--clr-ahover: #2ea9df;
+	--clr-lihover: #2f436e;
+	--clr-background: #333333;
+	--clr-shadow: #555;
+	--clr-sale: red;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 20px;
+}
+
+#header-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 100vw;
+	background-color: var(--clr-sale);
+}
+
+#header-container .sale{
+	font-size: 0.8em;
+	color: var(--clr-secondary);
+}
+
+.navigation-container{
+	display: flex;
+	align-items: center;
+	width: 100vw;
+	height: 70px;
+	background-color: var(--clr-primary);
+}
+
+.navigation-container .logo{
+	height: 50px;
+	padding-left: 2em;
+}
+
+.navigation-container ul{
+	display: flex;
+	justify-content: flex-end;
+	width: 100vw;
+}
+
+.navigation-container ul li{
+	display: block;
+	margin-right: 2em;
+}
+
+.navigation-container ul li a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--clr-secondary);
+	padding: 0 10px;
+	height: 70px;
+	width: 100px;
+	text-decoration: none;
+}
+
+.navigation-container ul li a:hover{
+	background-color: var(--clr-lihover);
+	color: var(--clr-ahover);
+}
+
+.hero-container{
+	height: 300px;
+	background-image: url(../assets/shop/sunglasses.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-container .hero-banner{
+
+}
+
+.product-container{
+	display: flex;
+	justify-content: center;
+	background-color: var(--clr-secondary);
+	width: 100vw;
+}
+
+.product-card-container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 90%;
+	margin: 2rem auto;
+	grid-gap: 2rem;
+}
+
+.product-card{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	height: auto;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.product-card .card-img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 5px;
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #000;
+}
+
+.product-card .card-heading{
+	font-size: 1rem;
+}
+
+.product-card .description{
+	padding: 4px 0;
+	font-size: 0.9rem;
+	color: var(--clr-primary);
+}
+
+.product-card .price{
+	padding: 4px 0;
+	font-size: 0.9rem;
+	color: var(--clr-primary);
+}
+
+.product-card .sale{
+	padding: 4px 0;
+	font-size: 0.9rem;
+	color: var(--clr-sale);
+}
+
+button{
+	background-color: var(--clr-primary);
+	color: var(--clr-secondary);
+	border: none;
+	font-size: 0.9em;
+	padding: 10px;
+	border-radius: 0.5em;
+}
+
+button:hover{
+	background-color: var(--clr-lihover);
+	color: var(--clr-ahover);
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: var(--clr-primary);
+	width: 100vw;
+	height: 60px;
+	position: relative;
+	bottom: 0;
+}
+
+footer p{
+	color: var(--clr-secondary);
+}
+
+@media(max-width: 800px){
+	.product-card-container{
+	grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media(max-width: 600px){
+	.product-card-container{
+	grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media(max-width: 600px){
+	.product-card-container{
+	grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.navigation-container ul{
+		display: none;
+	}
+}
+
+@media(max-width: 400px){
+	.product-card-container{
+	grid-template-columns: repeat(1, 1fr);
+	}
+	
+	.navigation-container ul{
+		display: none;
+	}
+}
