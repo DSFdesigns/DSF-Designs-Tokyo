@@ -51,7 +51,7 @@ body{
 }
 /* Navigation Styles */
 #main-navigation{
-	width: 100%;
+	width: 100vw;
 }
 
 #main-navigation .nav-links{
@@ -151,7 +151,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	width: 100%;
+	width: 100vw;
 	height: 50px;
 	background-color: var(--clr-primary);
 	position: absolute;

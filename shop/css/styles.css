@@ -31,7 +31,7 @@ body{
 }
 
 #header-container .sale{
-	font-size: 0.8em;
+	font-size: 0.8rem;
 	color: var(--clr-secondary);
 }
 
@@ -172,13 +172,13 @@ footer p{
 	color: var(--clr-secondary);
 }
 
-@media(max-width: 800px){
+@media(min-width: 800px){
 	.product-card-container{
 	grid-template-columns: repeat(3, 1fr);
 	}
 }
 
-@media(max-width: 600px){
+@media(max-width: 700px){
 	.product-card-container{
 	grid-template-columns: repeat(2, 1fr);
 	}
