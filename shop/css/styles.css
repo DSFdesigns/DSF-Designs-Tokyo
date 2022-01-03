@@ -133,6 +133,7 @@ body{
 	background-position: center;
 	background-size: cover;
 	border: 1px solid #000;
+	border-radius: 1rem;
 }
 
 .product-card .card-heading{
@@ -140,21 +141,27 @@ body{
 }
 
 .product-card .description{
-	padding: 4px 0;
+	padding: 2px 0;
 	font-size: 0.9rem;
 	color: var(--clr-primary);
 }
 
 .product-card .price{
-	padding: 4px 0;
+	padding: 2px 0;
 	font-size: 0.9rem;
 	color: var(--clr-primary);
 }
 
 .product-card .sale{
-	padding: 4px 0;
+	padding: 2px 0;
 	font-size: 0.9rem;
 	color: var(--clr-sale);
+}
+
+.product-card .info{
+	padding: 2px 0;
+	color: red;
+	font-size: 0.9rem;
 }
 
 button{
@@ -162,8 +169,9 @@ button{
 	color: var(--clr-secondary);
 	border: none;
 	font-size: 0.9em;
-	padding: 10px;
+	padding: 5px 0;
 	border-radius: 0.5em;
+	margin: 4px 0;
 }
 
 button:hover{
