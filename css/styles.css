@@ -54,7 +54,7 @@ body{
 .navigation{
 	background-color: var(--clr-primary);
 	height: 80px;
-	width: 1000%;
+	width: 100vw;
 }
 
 .navigation a{
@@ -78,7 +78,7 @@ body{
 	color: var(--clr-ahover);
 }
 
-.navigation ul{
+.navigation .main-menu{
 	display: flex;
 	justify-content: flex-end;
 	list-style: none;
@@ -89,7 +89,7 @@ body{
 	padding: 5px;
 }
 
-/* Sub Menu Sytles*/
+/* Sub Menu Styles*/
 .navigation li:hover .dropdown-menu > li{
 	display: block;
 	flex-direction: column;
@@ -106,7 +106,6 @@ body{
 	display: flex;
   flex-direction: column;
   position: absolute;
-  width: 100%;
 	z-index: 1;
 }
 
