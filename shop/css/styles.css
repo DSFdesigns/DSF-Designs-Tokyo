@@ -29,7 +29,7 @@ body{
 	width: 100vw;
 	background-color: var(--clr-sale);
 }
-
+/* Navigation Styles */
 #header-container .sale{
 	font-size: 0.9rem;
 	color: var(--clr-secondary);
@@ -50,8 +50,10 @@ body{
 }
 
 #navigation-container .logo{
+	display: flex;
 	height: 50px;
 	padding-left: 2em;
+	cursor: pointer;
 }
 
 #navigation-container ul{
@@ -80,7 +82,11 @@ body{
 	background-color: var(--clr-lihover);
 	color: var(--clr-ahover);
 }
-
+/* Sub-menu Styles */
+#navigation-container .sub-menu{
+	display: none;
+}
+/* Hero Styles */
 .hero-container{
 	height: 300px;
 	background-image: url(../assets/shop/sunglasses.jpg);
@@ -94,7 +100,7 @@ body{
 	font-size: 2rem;
 	text-shadow: 1px 1px var(--clr-secondary);
 }
-
+/* Product Styles */
 .product-container{
 	display: flex;
 	justify-content: center;
@@ -164,7 +170,7 @@ button:hover{
 	background-color: var(--clr-lihover);
 	color: var(--clr-ahover);
 }
-
+/* Footer Styles */
 footer{
 	display: flex;
 	justify-content: center;
@@ -180,7 +186,7 @@ footer{
 footer p{
 	color: var(--clr-secondary);
 }
-
+/* Mobile Styles */
 @media screen and (max-width: 800px){
 	.product-card-container{
 	grid-template-columns: repeat(3, 1fr);
@@ -192,7 +198,7 @@ footer p{
 	grid-template-columns: repeat(2, 1fr);
 	}
 	
-	.navigation-container ul{
+	#navigation-container ul{
 	display: none;
 }
 
@@ -201,7 +207,7 @@ footer p{
 	grid-template-columns: repeat(2, 1fr);
 	}
 	
-	.navigation-container ul{
+	#navigation-container ul{
 		display: none;
 	}
 	
@@ -210,7 +216,7 @@ footer p{
 	grid-template-columns: repeat(1, 1fr);
 	}
 	
-	.navigation-container ul{
+	#navigation-container ul{
 		display: none;
 	}
 }
