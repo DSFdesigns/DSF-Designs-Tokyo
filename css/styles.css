@@ -47,7 +47,7 @@ body{
 
 .language img{
 	height: 30px;
-	padding-right: 1.5em;
+	padding-right: 1.5rem;
 	cursor: pointer;
 }
 /* Navigation Sytles */
@@ -62,11 +62,11 @@ body{
 	align-items: center;
 	justify-content: center;
 	height: 80px;
-	width: 120px;
+	width: 100px;
 	background-color: var(--clr-primary);
 	color: var(--clr-secondary);
 	text-decoration: none;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 .navigation .active{
@@ -136,8 +136,8 @@ body{
 .hero-text{
 	color: var(--clr-secondary);
 	text-shadow: 2px 2px #333;
-	padding: 1.5em;
-	font-size: 2rem;
+	padding: 1.5rem;
+	font-size: 1.5rem;
 }
 /* Footer Sytles */
 .footer{
@@ -154,7 +154,7 @@ body{
 
 .footer p{
 	color: var(--clr-secondary);
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	padding: 0.5rem;
 }
 
