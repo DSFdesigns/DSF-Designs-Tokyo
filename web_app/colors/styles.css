@@ -83,8 +83,15 @@ th{
 	padding: 10px;
 	width: 150px;
 }
+
+.hex{
+	color: var(--clr-secondary);
+	text-shadow: 1px 1px #000;
+}
+
 .foot{
 	background-color: var(--clr-primary);
+	color: var(--clr-secondary);
 	font-size: 14px;
 }
 .desc{
