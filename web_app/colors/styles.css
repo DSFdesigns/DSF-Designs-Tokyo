@@ -1,3 +1,14 @@
+/* Global Styles */
+:root{
+	--clr-primary: #263959;
+	--clr-secondary: #e4e7ec;
+	--clr-hover: #344259;
+	--clr-active: #7b90d2;
+	--clr-ahover: #2ea9df;
+	--clr-lihover: #2f436e;
+	--clr-background: #333333;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -5,10 +16,55 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 body{
-	background: #000;
+	background-color: var(--clr-secondary);
 	margin: 0;
 	padding: 0;
+	font-size: 18px;
 }
+
+.navigation-container{
+	display: flex;
+	align-items: center;
+	background-color: var(--clr-primary);
+	height: 60px;
+	width: 100vw;
+}
+
+.logo{
+	height: 50px;
+	padding-left: 2rem;
+}
+
+nav{
+	width: 100vw;
+}
+
+.navigation-container nav ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	padding-right: 2rem;
+	height: 60px;
+}
+
+.navigation-container nav ul li{
+	padding: 0 1.5rem;
+}
+
+.navigation-container nav ul li a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--clr-secondary);
+	text-decoration: none;
+	font-size: 1rem;
+	height: 60px;
+}
+
+#series caption{
+	background-color: var(--clr-primary);
+}
+
 h1{
 	color: #fff;
 	text-align: center;
@@ -23,44 +79,54 @@ caption{
 	background: #6E5F57;
 }
 th{
-	background: #817B69;
+	background-color: var(--clr-primary);
 	padding: 10px;
 	width: 150px;
 }
 .foot{
-	background: #817B69;
+	background-color: var(--clr-primary);
 	font-size: 14px;
 }
 .desc{
-	color: #fff;
+	color: var(--clr-primary);
 	font-size: 14px;
 	text-align: center;
 }
 tr{
-	color: #fff;
+	color: var(--clr-secondary);
 	font-size: 14px;
 	text-align: center;
 	padding: 10px;
 	width: 100px;
 	height: 30px;
 }
+
+td{
+	color: var(--clr-primary);
+}
+
 header{
-	background: #8c9c76;
-	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--clr-primary);
+	width: 100vw;
+	border-top: 1px solid var(--clr-secondary);
 }
 table{
 	align-items: center;
 }
 footer{
-	background: #8c9c76;
+	display: flex;
+	justify-content: center;
+	background-color: var(--clr-primary);
 	position: relative;
 	margin-top: 20px;
 	bottom: 0;
 	width: 100%;
 }
 .motto{
-	color: #fff;;
-	text-align: center;
+	color: var(--clr-secondary);
 	font-size: 12px;
 	padding: 10px;
 }
