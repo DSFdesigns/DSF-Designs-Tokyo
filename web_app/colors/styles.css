@@ -81,7 +81,7 @@ caption{
 th{
 	background-color: var(--clr-primary);
 	padding: 10px;
-	width: 150px;
+	width: 200px;
 }
 
 .hex{
@@ -94,11 +94,13 @@ th{
 	color: var(--clr-secondary);
 	font-size: 14px;
 }
+
 .desc{
 	color: var(--clr-primary);
 	font-size: 14px;
 	text-align: center;
 }
+
 tr{
 	color: var(--clr-secondary);
 	font-size: 14px;
@@ -110,6 +112,7 @@ tr{
 
 td{
 	color: var(--clr-primary);
+	font-size: 13px;
 }
 
 header{
@@ -120,9 +123,11 @@ header{
 	width: 100vw;
 	border-top: 1px solid var(--clr-secondary);
 }
+
 table{
 	align-items: center;
 }
+
 footer{
 	display: flex;
 	justify-content: center;
@@ -132,6 +137,7 @@ footer{
 	bottom: 0;
 	width: 100%;
 }
+
 .motto{
 	color: var(--clr-secondary);
 	font-size: 12px;
