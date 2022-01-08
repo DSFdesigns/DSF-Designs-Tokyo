@@ -19,6 +19,7 @@
 body{
 	background-color: var(--clr-secondary);
 	font-size: 18px;
+	overflow: hidden;
 }
 
 #header-container{
