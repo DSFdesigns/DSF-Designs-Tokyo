@@ -5,34 +5,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<title>Japanese Kana Flashcards</title>
-	<link rel="stylesheet" href="../../css/styles.css" type="text/css"/>
+	<link rel="stylesheet" href="./css/styles.css" type="text/css"/>
 	<script src="./scripts/script.js" defer></script>
 	<script src="https://kit.fontawesome.com/b3a5d57206.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header id="header-container">
 		
-		<div class="logo">
-			<a href="index.html">
-				<img src="../../assets/branding/dsf-logo-inline.svg" alt="logo" />
-			</a>
-		</div>
-		
-		<button class="nav-toggle" id="navToggle">
-			<i class="fas fa-bars"></i>
-		</button>
-		
-		<nav class="navigation">
-			<ul class="main-menu">
-				<li><a href="../../index.html/">Home</a></li>
-				<li><a href="hiragana.html">Hiragana</a></li>
+		<img class="logo" src="../../assets/branding/dsf-logo-inline.svg" alt="logo" />
+
+		<nav class="main-navigation">
+			<ul class="nav-links">
+				<li><a href="./index.html/">Home</a></li>
+				<li><a class="active" href="hiragana.html">Hiragana</a></li>
 				<li><a href="katakana.html">Katakana</a></li>
 			</ul>
 		</nav>
-		<div class="language">
+		
 			<a href="index.html">
-				<img src="../../assets/img/japan.svg" href="index_jp.html" alt="japanese" />
+				<img class="language" src="../../assets/img/japan.svg" href="index_jp.html" alt="japanese" />
 			</a>
+			
+			<button class="nav-toggle" id="navToggle">
+				<i class="fas fa-bars"></i>
+			</button>
 		</div>
 	</header>
 
@@ -41,7 +37,7 @@
 	</div>
 
 	<main id="main-content">
-<!-- Main content
+
 			<div class="card">
 				<h3 class="kana">あ</h3>
 				<div class="img">
@@ -193,10 +189,9 @@
 					<input type="button" value="Play" onclick="playMusic()" />
 				</div>
 			</div>
--->
 	</main>
 
-	<footer class="footer">
+	<footer id="footer">
 		<p>
 			DSF Designs Tokyo<br>
 			<small>&copy;2021 JP Flashcards</small>
