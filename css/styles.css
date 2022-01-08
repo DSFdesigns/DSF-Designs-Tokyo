@@ -26,6 +26,7 @@ body{
 	background-color: var(--clr-primary);
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	height: 80px;
 	width: 100vw;
 }
@@ -33,7 +34,7 @@ body{
 .logo img{
 	display: flex;
 	height: 60px;
-	padding-left: 1.5rem;
+	margin-left: 1.5rem;
 	cursor: pointer;
 }
 
