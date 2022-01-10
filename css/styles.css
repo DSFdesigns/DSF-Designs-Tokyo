@@ -284,7 +284,6 @@ form{
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 1rem;
 	margin: 0 auto;
-	background-color: red;
 	width: 90%;
 }
 
