@@ -19,7 +19,7 @@
 
 .grid-image img{
 	width: 200px;
-	border-radius: 1em;
+	border-radius: 1rem;
 }
 
 .g-footer{
@@ -41,6 +41,36 @@
 
 .g-footer small{
 	font-size: 0.8rem;
+}
+
+/* Kamon Gallery Sytles */
+.gallery-container{
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.gallery-container .image-card{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 auto;
+	height: 300px;
+	width: 200px;
+}
+
+.image-card img{
+	border-radius: 1rem;
+}
+
+.name{
+	color: var(--clr-primary);
+	font-size: 1rem;
+	padding-top: 1rem;
 }
 
 /* Grid Media Queries */

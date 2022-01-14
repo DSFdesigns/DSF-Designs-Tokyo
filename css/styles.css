@@ -130,6 +130,7 @@ body {
 	width: 200px;
 	height: 50px;
 }
+
 /* Main Content Sytles */
 .bg-1a{
 	background-image: url(../assets/background/bg-1a.jpg);
@@ -276,38 +277,6 @@ form{
 .not-found a{
 	color: red;
 }
-
-/* Kamon Gallery Sytles */
-.gallery-container{
-	display: grid;
-	width: 100%;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 1rem;
-	margin: 0 auto;
-	width: 90%;
-}
-
-.gallery-container .image-card{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	text-align: center;
-	margin: 0 auto;
-	height: 300px;
-	width: 200px;
-}
-
-.gallery-container .image-card img{
-	height: 200px;
-	border-radius: 1rem;
-}
-
-.name{
-	color: var(--clr-primary);
-	font-size: 1rem;
-	padding-top: 1rem;
-}
-
 
 /* Media Queries */
 @media screen and (max-width: 900px){
