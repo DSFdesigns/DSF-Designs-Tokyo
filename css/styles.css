@@ -53,6 +53,14 @@ body {
 	display: none;
 }
 
+.nav-toggle{
+	font-size: 2rem;
+	color: var(--clr-secondary);
+	margin-right: 1.5rem;
+	border: none;
+	background: none;
+}
+
 .language a img{
 	display: flex;
 	align-items: center;
@@ -284,37 +292,23 @@ form{
 	display: none;	
 	}
 	
-	.gallery-container{
-		grid-template-columns: repeat(3, 1fr);
+	.nav-toggle{
+		display: flex;
+	}
+	
+	.language{
+		display: none;
 	}
 }
 
 @media screen and (max-width: 800px){
-	.navigation{
-		display: none;	
-	}
-	
-	.gallery-container{
-		grid-template-columns: repeat(3, 1fr);
-	}
+
 }
 
 @media screen and (max-width: 700px){
-	.navigation{
-		display: none;	
-	}
-	
-	.gallery-container{
-		grid-template-columns: repeat(2, 1fr);
-	}
+
 }
 
-@media screen and (max-width: 500px){
-	.navigation{
-		display: none;	
-	}
-	
-	.gallery-container{
-		grid-template-columns: 1fr;
-	}
+@media screen and (max-width: 450px){
+
 }
