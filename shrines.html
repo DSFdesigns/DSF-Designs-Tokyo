@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 	<title>DSF Designs Tokyo</title>
-	<link rel="stylesheet" href="./css/styles.css" type="text/css" />
+	<link rel="stylesheet" href="css/styles.css" type="text/css" />
 	<link rel="stylesheet" href="./css/gallery_styles.css" type="text/css">
 	<script src="./scripts/script.js" defer></script>
 	<script src="https://kit.fontawesome.com/b3a5d57206.js" crossorigin="anonymous"></script>
@@ -14,7 +14,7 @@
 	<header id="header-container">
 		
 		<div class="logo">
-			<a href="index.html">
+			<a href="./index.html">
 				<img src="./assets/branding/dsf-logo-inline.svg" alt="logo" />
 			</a>
 		</div>
@@ -25,11 +25,11 @@
 		
 		<nav class="navigation">
 			<ul class="main-menu">
-				<li><a class="active" href="./index.html">Home</a></li>
+				<li><a href="./index.html">Home</a></li>
 				<li><a href="./about.html">About</a></li>
 				<li><a href="#">Work <i class="fa fa-caret-down"></i></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Download Resume</a></li>
+							<li><a href="#">Resume</a></li>
 							<li><a href="#">HTML Emails</a></li>
 							<li><a href="#">Landing Pages</a></li>
 							<li><a href="https://dsi-industries.github.io./">Homepages</a></li>
@@ -37,7 +37,7 @@
 							<li><a href="./shop/index.html">Shop</a></li>
 						</ul>
 				</li>
-				<li><a href="#">Galleries <i class="fa fa-caret-down"></i></a>
+				<li><a  class="active" href="#">Galleries <i class="fa fa-caret-down"></i></a>
 						<ul class="dropdown-menu">
 							<li><a href="./gato.html">Gato</a></li>
 							<li><a href="./kamon.html">Samurai Kamon</a></li>
@@ -55,7 +55,7 @@
 							<li><a href="#">My Gear</a></li>
 					</ul>
 				</li>
-				<li><a href="./contact.html">Contact</a></li>
+				<li><a class="cta-button" href="./contact.html">Contact</a></li>
 			</ul>
 		</nav>
 		<div class="language">
@@ -65,13 +65,62 @@
 		</div>
 	</header>
 	
-	<main id="main" class="bg-1a bg-1b">
-		<div class="overlay">
-			<h1 class="hero-text">Welcome to DSF Desings!</h1>
+	<main id="main">
+		<div class="gallery-container">
+			<div class="image-card">
+				<img src="" alt="image" />
+				<h2 class="name">(Shrine name)</h2>
+			</div>
+			
+			<div class="image-card">
+				<img src="" alt="image" />
+				<h2 class="name">(Shrine name)</h2>
+			</div>
+			
+			<div class="image-card">
+				<img src="" alt="image-1" />
+				<h2 class="name">(Shrine name)</h2>
+			</div>
+			
+			<div class="image-card">
+				<img src="" alt="image" />
+				<h2 class="name">(Shrine name)</h2>
+			</div>
+			
+			<div class="image-card">
+				<img src="" alt="image" />
+				<h2 class="name">(Shrine name)</h2>
+			</div>
+
+			<div class="image-card">
+				<img src="" alt="image" />
+				<h2 class="name">(Shrine name)</h2>
+			</div>
+			
+			<div class="image-card">
+				<img src="" alt="image" />
+				<h2 class="name">(Shrine name)</h2>
+			</div>
+			
+			<div class="image-card">
+				<img src="" alt="image" />
+				<h2 class="name">(Shrine name)</h2>
+			</div>
+			
+			<div class="image-card">
+				<img src="" alt="image" />
+				<h2 class="name">(Shrine name)</h2>
+			</div>
+			
+			<div class="image-card">
+				<img src="" alt="image" />
+				<h2 class="name">(Shrine name)</h2>
+			</div>
+			
 		</div>
 	</main>
 	
-	<footer class="footer">
+	<footer class="footer" id="gallery-footer">
 		<p>
 			DSF Designs Tokyo<br>
 			<small>&copy;2021 DSF Designs</small>

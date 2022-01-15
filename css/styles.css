@@ -310,5 +310,12 @@ form{
 }
 
 @media screen and (max-width: 450px){
-
+	.bg-1b{
+		background-image: url(../assets/background/bg-1a.jpg);
+		background-size: cover;
+		background-position: center;
+		height: calc(100vh - 80px);
+		width: 100vw;
+		overflow: auto;
+	}
 }
