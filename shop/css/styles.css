@@ -52,7 +52,7 @@ body{
 #navigation-container .logo{
 	display: flex;
 	height: 50px;
-	padding-left: 2em;
+	padding-left: 1.5rem;
 	cursor: pointer;
 }
 
@@ -64,7 +64,7 @@ body{
 
 #navigation-container ul li{
 	display: block;
-	margin-right: 2em;
+	margin-right: 1.5rem;
 }
 
 #navigation-container ul li a{
@@ -76,6 +76,7 @@ body{
 	height: 70px;
 	width: 100px;
 	text-decoration: none;
+	font-size: 1rem;
 }
 
 #navigation-container ul li a:hover{
@@ -193,6 +194,11 @@ footer{
 
 footer p{
 	color: var(--clr-secondary);
+	font-size: 0.9rem;
+}
+
+footer small{
+	font-size: 0.8rem;
 }
 /* Mobile Styles */
 @media screen and (max-width: 800px){
