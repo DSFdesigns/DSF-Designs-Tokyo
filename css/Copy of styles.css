@@ -49,7 +49,6 @@ body {
 	cursor: pointer;
 }
 
-/* Navigation Toggle Styles */
 .nav-toggle{
 	display: none;
 }
@@ -62,7 +61,6 @@ body {
 	background: none;
 }
 
-/* Language Button Styles */
 .language a img{
 	display: flex;
 	align-items: center;
@@ -76,31 +74,20 @@ body {
 /* Navigation Sytles */
 .navigation{
 	background-color: var(--clr-primary);
+	height: 80px;
 	width: 100vw;
 }
 
-.navigation .main-menu{
-	display: flex;
-	justify-content: flex-end;
-	list-style: none;
-}
-
-.navigation .main-menu li{
-	display: block;
-	text-decoration: none;
-	width: 120px;
-}
-
-.navigation .main-menu li a{
+.navigation a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 80px;
-	width: 100%;
+	width: 100px;
+	background-color: var(--clr-primary);
 	color: var(--clr-secondary);
 	text-decoration: none;
-	font-size: 0.8rem;
-	text-transform: uppercase;
+	font-size: 1rem;
 }
 
 .navigation .active{
@@ -119,39 +106,37 @@ body {
 	padding-right: 1.5em;
 }
 
-.fas{
+.fa{
 	padding: 5px;
 }
 
 /* Sub Menu Styles*/
-.navigation .main-menu .sub-menu{
-	visibility: hidden;
-	opacity: 0;
-	position: absolute;
-	display: none;
-	transition: all 0.5s ease;
-	width: 200px;
-	background-color: var(--clr-primary);
-}
-
-.sub-menu .sub-link{
-	width: 100%;
-}
-
-.main-menu li:hover > .sub-menu,
-.main-menu li .sub-links:hover{
-	visibility: visible;
-	opacity: 1;
+.navigation li:hover .dropdown-menu > li{
 	display: block;
+	flex-direction: column;
+	top: 0;
 }
 
-.main-menu li .sub-menu .sub-link{
-	clear: both;
-	width: 100%;
+.dropdown-menu li{
+	display: none;
+	position: absolute;
+	top: 0;
 }
 
-.nav-open{
-	height: 100vh;
+.dropdown-menu{
+	display: flex;
+  flex-direction: column;
+  position: absolute;
+	z-index: 1;
+}
+
+.dropdown-menu li{
+	position: relative;
+}
+
+.dropdown-menu li a{
+	width: 200px;
+	height: 50px;
 }
 
 /* Main Content Sytles */
@@ -302,8 +287,6 @@ form{
 }
 
 /* Media Queries */
-
-/* 900px Styls */
 @media screen and (max-width: 900px){
 	.navigation{
 	display: none;	
@@ -316,19 +299,16 @@ form{
 	.language{
 		display: none;
 	}
-/* Hamurger Menu styles */
-
 }
 
-/* 800px Styles */
 @media screen and (max-width: 800px){
 
 }
-/* 700px Styles */
+
 @media screen and (max-width: 700px){
 
 }
-/* 450px Styles */
+
 @media screen and (max-width: 450px){
 	.bg-1b{
 		background-image: url(../assets/background/bg-1a.jpg);
