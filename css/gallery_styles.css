@@ -93,11 +93,11 @@
 }
 
 #lightbox .img{
-	max-width: 90%;
-	max-height: 80%;
+	max-width: 70%;
+	max-height: 70%;
 	padding: 4px;
 	background-color: var(--clr-secondary);
-	border: 2px solid var(--clr-primary);
+	border: 2px solid #fff;
 }
 
 /* Grid Media Queries */
