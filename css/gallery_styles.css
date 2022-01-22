@@ -92,9 +92,9 @@
 	align-items: center;
 }
 
-#lightbox .img{
-	max-width: 70%;
-	max-height: 70%;
+#lightbox.img{
+	width: 50%;
+	height: 50%;
 	padding: 4px;
 	background-color: var(--clr-secondary);
 	border: 2px solid #fff;
