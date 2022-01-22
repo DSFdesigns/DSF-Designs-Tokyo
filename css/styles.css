@@ -62,6 +62,7 @@ body {
 	margin-right: 1.5rem;
 	border: none;
 	background: none;
+	cursor: pointer;
 }
 
 /* Language Button Styles */
@@ -313,24 +314,13 @@ form{
 /* Media Queries */
 
 /* 900px Styles */
-@media screen and (max-width: 900px){
-	.navigation{
-	display: none;	
-	}
-	
-	.nav-toggle{
-		display: flex;
-	}
-	
-	.language{
-		display: none;
-	}
+
 /* Hamburger Menu styles */
 
 }
 
-/* 800px Styles */
-@media only screen and (max-width: 1200px) {
+/* 1100 Styles */
+@media only screen and (max-device-width: 1200px) {
 	.navigation .main-menu {
 		display: none;
 	}
@@ -361,17 +351,71 @@ form{
 		width: 100%;
 	}
 	
+/* Navigation Dropdown */
+	.main-menu{
+		height: 0;
+		overflow: hidden;
+	}
+	
+	.nav-open{
+		height: 100vh;
+	}
+	
+	/* Submenu styles */
+	.main-menu .sub-menu{
+		display: none;
+		position: relative;
+	}
+	
+	.sub-link{
+		position: relative;
+		font-size: 1em;
+		width: 100%;
+		padding: .5em 0;
+		top: 9px;
+		background-color: var(--hover);
+	}
+	
+	.sub-link a{
+		display: block;
+		color: var(--secondary);
+		text-decoration: none;
+		margin-left: 1em;
+	}
+	
+	.sub-link:hover{
+		background-color: var(--active);
+	}
+	
+	.mainmenu .nav-link:hover .submenu{
+		opacity: 1;
+		display: block;
+		z-index: 9999;
+	}
 }
 
-@media screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
+.navigation{
+display: none;	
+}
+
+.nav-toggle{
+	display: flex;
+}
+
+.language{
+	display: none;
+}
+
+@media only screen and (max-width: 800px){
 
 }
 /* 700px Styles */
-@media screen and (max-width: 700px){
+@media only screen and (max-width: 700px){
 
 }
 /* 450px Styles */
-@media screen and (max-width: 450px){
+@media only screen and (max-width: 450px){
 	.bg-1b{
 		background-image: url(../assets/background/bg-1a.jpg);
 		background-size: cover;
