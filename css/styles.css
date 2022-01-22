@@ -320,7 +320,7 @@ form{
 }
 
 /* 1100 Styles */
-@media only screen and (max-device-width: 1200px) {
+@media only screen and (max-device-width: 1100px) {
 	.navigation .main-menu {
 		display: none;
 	}
