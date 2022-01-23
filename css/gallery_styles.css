@@ -1,3 +1,4 @@
+/* Gato Gallery Styles */
 #gato-gallery{
 	background-color: var(--clr-secondary);
 }
@@ -5,17 +6,44 @@
 .grid{
 	display: grid;
 	height: 100%;
-	width: 70%;
+	width: 80%;
 	grid-gap: 1rem;
 	margin: 1rem auto;
 	grid-template-columns: repeat(4, 1fr);
-	
+	justify-content: center;
 }
 
 .grid img{
 	height: 200px;
 	width: 200px;
+	margin: auto;
 }
+
+@media screen and (max-width: 900px){
+	#gato-gallery .grid{
+	grid-template-columns: repeat(3, 1fr);	
+	}
+}
+
+@media screen and (max-width: 800px){
+	#gato-gallery .grid{
+	grid-template-columns: repeat(2, 1fr);	
+	}
+}
+
+@media screen and (max-width: 700px){
+	#gato-gallery .grid{
+	grid-template-columns: repeat(2, 1fr);	
+	}
+}
+
+@media screen and (max-width: 450px){
+	#gato-gallery .grid{
+		grid-template-columns: 1fr;
+	}
+}
+/* Gato Styles End */
+
 
 .grid-container{
 	display: grid;
