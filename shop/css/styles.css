@@ -125,6 +125,9 @@ body{
 	height: auto;
 	width: 200px;
 	margin: 0 auto;
+	min-width: 33.3%;
+	flex-grow: 1;
+	flex-basis: 0;
 }
 
 .product-card .card-img{
