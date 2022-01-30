@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'roboto', sans-serif;
+}
+
+body{
+	width: 100vw;
+	height: 100%;
+	background-color: #fff;
+	font-size: 18px;
+}
+
+header{
+	width: 100vw;
+	background-color: red;
+}
+
+header .banner{
+	background-color: #555;
+	width: 100vw;
+	height: 150px;
+}
+
+header nav{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightblue;
+	width: 100vw;
+}
+
+nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	height: 100%;
+}
+
+nav ul li{
+	padding: 1em 0.5em;
+}
+
+nav ul li a{
+	color: navy;
+	font-size: 1em;
+	text-decoration: none;
+	border: 2px solid navy;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+nav ul li a:hover{
+	background-color: navy;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.hero-text h1{
+	color: #fff;
+	font-size: 1.5em;
+	padding: 1em;
+}
+
+#home{
+	width: 100vw;
+	height: 300px;
+	background-color: #222;
+}
+
+#about{
+	width: 100vw;
+	height: 300px;
+	background-color: #333;
+}
+
+#collection{
+	width: 100vw;
+	height: 300px;
+	background-color: #444;
+}
+
+#contact{
+	width: 100vw;
+	height: 300px;
+	background-color: #555;
+}
+
+#future{
+	width: 100vw;
+	height: 300px;
+	background-color: #000;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-color: lightblue;
+	position: relative;
+	bottom: 0;
+	width: 100vw;
+}
+
+footer p{
+	color: navy;
+	font-size: 1em;
+	padding: 0.2em;
+}
