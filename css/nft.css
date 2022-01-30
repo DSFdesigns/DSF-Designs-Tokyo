@@ -23,12 +23,20 @@ header .banner{
 	height: 150px;
 }
 
-header nav{
+.container nav{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: lightblue;
 	width: 100vw;
+}
+
+.nav-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100vw;
+	background-color: red;
+	height: 50px;
 }
 
 nav ul{
@@ -37,6 +45,7 @@ nav ul{
 	align-items: center;
 	list-style: none;
 	height: 100%;
+	width: 100%;
 }
 
 nav ul li{
@@ -56,6 +65,10 @@ nav ul li a:hover{
 	background-color: navy;
 	color: #fff;
 	border: 2px solid #fff;
+}
+
+nav .nav-toggle{
+	display: none;
 }
 
 .hero-text h1{
@@ -109,4 +122,32 @@ footer p{
 	color: navy;
 	font-size: 1em;
 	padding: 0.2em;
+}
+
+@media only screen and (max-width: 1100px){
+	.nav-container nav{
+		display: none;
+	}
+	
+	.nav-container{
+		display: flex;
+		justify-content: flex-end;
+	}
+	
+	.nav-open{
+		height: 100vh;
+	}
+	
+	.nav-toggle{
+		display: flex;
+	}
+	
+	.nav-toggle{
+		cursor: pointer;
+		font-size: 32px;
+		border: none;
+		background: transparent;
+		color: var(--clr-secondary);
+		margin-right: 1em;
+	}
 }
