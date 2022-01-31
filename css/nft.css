@@ -14,7 +14,7 @@ body{
 
 header{
 	width: 100vw;
-	background-color: red;
+	background-color: lightblue;
 }
 
 header .banner{
@@ -35,7 +35,6 @@ header .banner{
 	align-items: center;
 	justify-content: space-between;
 	width: 100vw;
-	background-color: red;
 	height: 50px;
 }
 
@@ -67,7 +66,7 @@ nav ul li a:hover{
 	border: 2px solid #fff;
 }
 
-nav .nav-toggle{
+.nav-toggle{
 	display: none;
 }
 
