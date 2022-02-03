@@ -1,3 +1,18 @@
+// hamburger menu //
+const hamburger = document.querySelector(".hamburger");
+const mainMenu = document.querySelector(".main-menu");
+
+hamburger.addEventListener("click", () => {
+	hamburger.classList.toggle("active");
+	mainMenu.classList.toggle("active");
+})
+
+document.querySelectorAll(".main-link").forEach(n => n.addEventListener("click", () => {
+	hamburger.classList.remove("active");
+	mainMenu.classList.remove("active");
+}))
+
+
 // nav toggle - select button and links //
 const navToggle = document.querySelector("#navToggle")
 const nav = document.querySelector("#nav-links")
