@@ -66,6 +66,7 @@ body {
 .navigation{
 	background-color: var(--clr-primary);
 	width: 100vw;
+	z-index: 1000;
 }
 
 .navigation .main-menu{
@@ -194,7 +195,7 @@ body {
 	background-image: url(../assets/background/bg-2a.jpg);
 	background-size: cover;
 	background-position: center;
-	height: calc(100vh - 80px);
+	height: calc(100vh - 130px);
 	width: 100vw;
 	overflow: auto;
 }
