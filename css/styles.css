@@ -319,6 +319,25 @@ form{
 		height: 40px;
 	}	
 	
+	
+/* Sub Menu Styles*/
+	.navigation .main-menu .sub-menu{
+		visibility: hidden;
+		opacity: 0;
+		position: absolute;
+		display: none;
+		transition: all 0.5s ease;
+		width: 100%;
+		background-color: var(--clr-primary);
+	}
+
+	.sub-menu .sub-link{
+		width: 100%;
+	}
+
+	.sub-menu .sub-link .sub{
+		height: 40px;
+	}
 /* Nav Toggle Style */
 	.main-menu{
 		position: fixed;
