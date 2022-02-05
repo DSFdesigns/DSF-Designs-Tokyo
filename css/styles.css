@@ -94,11 +94,11 @@ body {
 	text-transform: uppercase;
 }
 
-.navigation .active{
+.navigation li a.active{
 	color: var(--clr-active);
 }
 
-.navigation a:hover{
+.navigation li a:hover{
 	background-color: var(--clr-lihover);
 	color: var(--clr-ahover);
 }

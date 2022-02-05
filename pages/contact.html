@@ -1,17 +1,24 @@
+<?php 
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, inital-scale=1.0" />
-	<title>404 Not Found</title>
-	<link rel="stylesheet" href="./css/styles.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>DSF Designs Tokyo</title>
+	<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+	<script src="scripts/script.js" defer></script>
+	<script src="https://kit.fontawesome.com/b3a5d57206.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header id="header-container">
 		
 		<div class="logo">
-			<a href="./index.html">
-				<img src="./assets/branding/dsf-logo-inline.svg" alt="logo" />
+			<a href="../index.html">
+				<img src="../assets/branding/dsf-logo-inline.svg" alt="logo" />
 			</a>
 		</div>
 		
@@ -41,7 +48,7 @@
 							<li class="sub-link"><a class="sub" href="#">Travel</a></li>
 							<li class="sub-link"><a class="sub" href="#">Shakuhachi</a></li>
 							<li class="sub-link"><a class="sub" href="../web_app/flashcard_app/index.html">Japanese</a></li>
-							<li class="sub-link"><a class="sub" href="../web_app/colors/colors.html">Colors of Japan (PC)</a></li>
+							<li class="sub-link"><a class="sub" href="../web_app/colors/colors.html">Colors of Japan</a></li>
 					</ul>
 				</li>
 				<li class="main-link"><a href="./contact.html">Contact</a></li>
@@ -49,8 +56,8 @@
 		</nav>
 		
 		<div class="language">
-			<a href="./index.html">
-				<img src="./assets/img/japan.svg" href="./index_jp.html" alt="japanese" />
+			<a href="../index.html">
+				<img src="../assets/img/japan.svg" alt="japanese" />
 			</a>
 		</div>
 
@@ -60,16 +67,21 @@
 			<span class="bar"></span>
 		</div>
 	</header>
-
-	<section class="not-found">
-		<div class="not-found-container">
-			<h1 class="nf-text">404 Page Not Found!</h1>
-			<p class="nf-paragraph">The page you are looking for cannot be found or does not exist.<br>
-			Please click <a href="./index.html">here</a> to return to the Home Page.
-			</p>
-		</div>
-	</section>
 	
+	<main id="main" class="bg-2a bg-2b">
+		<div class="overlay main"></div>
+	<section class="form-container">
+		<form method="post" class="form">
+			<h1 class="form-title">Contact Info</h1>
+			<input class="input-field" placeholder="Name" type="text" required /> 
+			<input class="input-field" placeholder="Email" type="email" required /> 
+			<input class="input-field" placeholder="Subject" type="text" />
+			<textarea class="input-field textarea-field" placeholder="Message..." type="text"></textarea>
+			<button class="btn" type="button">Send Message</button>
+		</form>
+	</section>
+	</main>
+		
 	<footer class="footer">
 		<p>
 			DSF Designs Tokyo<br>

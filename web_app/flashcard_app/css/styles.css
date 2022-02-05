@@ -67,11 +67,16 @@ nav ul li a{
 	font-size: 1.2rem;
 }
 
+nav ul li a:hover{
+	color: var(--clr-ahover);
+}
+
 li .active{
 	color: var(--clr-active);
 }
 
-a .language{
+.language img{
+	display: flex;
 	height: 32px;
 	margin-right: 2rem;
 }
