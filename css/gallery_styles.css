@@ -113,14 +113,17 @@
 	cursor: pointer;
 }
 
-.image-card img{
+.grid img{
 	border-radius: 1rem;
 }
 
+
 .name{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: var(--clr-primary);
-	font-size: 1rem;
-	padding-top: 1rem;
+	font-size: 0.8rem;
 }
 
 /* Lightbox Styles */
