@@ -252,6 +252,11 @@ form{
 	cursor: pointer;
 	width: 250px;
 }
+
+.btn:hover{
+	background-color: var(--clr-lihover);
+	color: var(--clr-ahover);
+}
 	
 /* 404 Not Styles */
 .not-found{
