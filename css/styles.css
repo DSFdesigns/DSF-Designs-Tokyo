@@ -327,9 +327,9 @@ form{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(0,0,0,0.3);
+	background-color: var(--clr-primary);
+	box-shadow: 0 0 10px 0 #999;
 	border-radius: 1rem;
-	transform: translate();
 }
 
 .resume-links{
@@ -337,17 +337,18 @@ form{
 }
 
 .resume-links .dl-btn{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	border-radius: 0.5rem;
 	margin: 1rem 0;
 	width: 450px;
 }
 
 .resume-links a{
-	color: var(--clr-secondary);
-	background-color: var(--clr-primary);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	color: var(--clr-primary);
+	background-color: var(--clr-secondary);
 	text-decoration: none;
 	padding: 0.5rem 1rem;
 	border-radius: 0.5rem;
@@ -355,8 +356,8 @@ form{
 	height: 40px;
 }
 .resume-links a:hover{
-	background-color: var(--clr-secondary);
-	color: var(--clr-primary);
+	background-color: var(--clr-lihover);
+	color: var(--clr-ahover);
 }
 
 /* 1100 Styles */
