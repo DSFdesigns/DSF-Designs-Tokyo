@@ -327,7 +327,7 @@ form{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.3);
 	border-radius: 1rem;
 	transform: translate();
 }
@@ -340,18 +340,21 @@ form{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 40px;
-	width: 300px;
-	background-color: var(--clr-primary);
 	border-radius: 0.5rem;
 	margin: 1rem 0;
+	width: 450px;
 }
 
 .resume-links a{
 	color: var(--clr-secondary);
+	background-color: var(--clr-primary);
 	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	width: 100%;
+	height: 40px;
 }
-.resume-links .dl-btn:hover{
+.resume-links a:hover{
 	background-color: var(--clr-secondary);
 	color: var(--clr-primary);
 }
