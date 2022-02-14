@@ -35,6 +35,11 @@ body {
 	scrollbar-width: none;  /* Firefox */
 }
 
+#main{
+	width: 100vw;
+	height: calc(100vh - 130px);
+}
+
 #header-container{
 	background-color: var(--clr-primary);
 	display: flex;
