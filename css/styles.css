@@ -37,7 +37,7 @@ body {
 
 #main{
 	width: 100vw;
-	height: calc(100vh - 130px);
+	height: 100%;
 }
 
 #header-container{
