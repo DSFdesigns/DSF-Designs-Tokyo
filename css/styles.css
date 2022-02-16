@@ -21,7 +21,7 @@ body{
 	font-size: 18px;
 	overflow-y: scroll;
 	width: 100vw;
-	height: 100vh;
+	height: calc(100vh - 130px);
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -154,10 +154,8 @@ body {
 .bg-1a{
 	background-image: url(../assets/background/bg-1a.jpg);
 	background-size: cover;
-	background-position: center;
-	height: calc(100vh - 130px);
-	width: 100vw;
-	overflow: auto;
+	position: relative;
+	min-height: 100%;
 }
 
 .overlay{
