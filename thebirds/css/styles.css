@@ -1,0 +1,115 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: #444;
+	font-size: 18px;
+	
+}
+
+.navigation{
+	position: absolute;
+	background-color: #435435;
+	opacity: 0.7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10%;
+	width: 100vw;
+}
+
+.logo{
+	display: flex;
+	padding-left: 2rem;
+}
+
+.navigation ul{
+	list-style: none;
+	display: flex;
+	padding-right: 2rem;
+}
+
+.navigation ul li{
+	padding-left: 1.5rem;
+}
+
+.navigation ul li a{
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: #edffd1;
+	text-transform: uppercase;
+}
+
+.navigation ul li a:hover{
+	color: #bbd195;
+}
+
+.navigation ul li .active{
+	color: cyan;
+}
+
+header{
+	width: 100vw;
+	height: 100vh;
+	background-color: red;
+	background-image: url(../assets/backgrounds/bg-1.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+header .overlay{
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(2,2,2,  0.2);
+
+}
+
+.hero-text{
+	font-size: 1.5rem;
+	color: #fff;
+	font-weight: bold;
+	padding: 20% 5%;
+	text-shadow: 1px 1px #87a96b;
+}
+
+button{
+	background-color: #87a96b;
+	border: none;
+	font-size: 1.2rem;
+	padding: 10px;
+	margin: 1rem 0;
+	color: #000;
+	border-radius: 10px;
+}
+
+button:hover{
+	background-color: #435435;
+	color: #fff;
+}
+
+footer{
+	background-color: #435435;
+	opacity: 0.7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	height: 10%;
+}
+
+footer p{
+	color: #edffd1;
+	font-size: 1.1rem;
+}
+
+footer p small{
+	font-size: 1rem;
+}
