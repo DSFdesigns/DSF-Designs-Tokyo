@@ -79,6 +79,7 @@ header .overlay{
 	color: #fff;
 	margin-left: 5%;
 	background-color: red;
+	transform: translate(5%, -50%);
 }
 
 .hero-text h1{
