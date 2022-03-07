@@ -1,7 +1,7 @@
 /* Gato Gallery Styles */
 #gallery{
 	background-color: #bbd195;
-	padding: 3rem 0;
+	height: calc(100vh - 40%);
 }
 
 .grid{
@@ -45,8 +45,6 @@
 	}
 }
 /* Gato Styles End */
-
-
 .grid-container{
 	display: grid;
 	justify-content: center;
