@@ -3,12 +3,15 @@
 	--clr-primary: #435435; /* Navigation */
 	--clr-secondary: #e4e7ec;
 	--clr-hover: #344259;
-	--clr-active: #7b90d2;
-	--clr-ahover: #2ea9df;
+	--clr-active: cyan; /* Active */
+	--clr-ahover: #bbd195;
 	--clr-lihover: #2f436e;
 	--clr-background: #444; /* Body */
 }
 
+/* Font-size */
+
+/* General Styles */
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -21,7 +24,6 @@ body{
 	height: 100vh;
 	width: 100vw;
 	font-size: 18px;
-	
 }
 
 .navigation{
@@ -36,34 +38,33 @@ body{
 }
 
 .logo{
-	display: flex;
 	padding-left: 2rem;
-	width: 2vw;
 }
 
 .navigation ul{
 	list-style: none;
 	display: flex;
 	padding-right: 2rem;
+	align-items: center;
 }
 
 .navigation ul li{
-	padding-left: 1.5vw;
+	padding-left: 1.5rem;
 }
 
 .navigation ul li a{
 	text-decoration: none;
-	font-size: 1.5vw;
+	font-size: 1.2rem;
 	color: #edffd1;
 	text-transform: uppercase;
 }
 
 .navigation ul li a:hover{
-	color: #bbd195;
+	color: var(--clr-ahover);
 }
 
 .navigation ul li .active{
-	color: cyan;
+	color: var(--clr-active);
 }
 
 header{
@@ -96,7 +97,7 @@ header .overlay{
 }
 
 .hero-text h1{
-	font-size: 1.5vw;
+	font-size: 1.5rem;
 	color: #fff;
 	font-weight: bold;
 	text-shadow: 1px 1px #87a96b;
@@ -112,9 +113,9 @@ header .overlay{
 button{
 	background-color: #87a96b;
 	border: none;
-	font-size: 1.2vw;
-	padding: 0.5vw;
-	margin: 0.5vw 0 0 0;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	margin: 0.5rem 0 0 0;
 	color: #000;
 	border-radius: 0.5vw;
 }
@@ -125,7 +126,7 @@ button:hover{
 }
 
 .footer{
-	background-color: #435435;
+	background-color: var(--clr-primary);
 	opacity: 0.7;
 	display: flex;
 	justify-content: center;
@@ -139,11 +140,11 @@ button:hover{
 
 .footer p{
 	color: #edffd1;
-	font-size: 1.1vw;
+	font-size: 1.1rem;
 }
 
 .footer p small{
-	font-size: 1vw;
+	font-size: 0.9rem;
 }
 
 /* Hamburger Styles */
@@ -246,39 +247,13 @@ button:hover{
 /* 1100 Styles */
 @media only screen and (max-width: 1100px){
 /* Navigation Styles */
-	.navigation ul li{
-		display: block;
-		text-decoration: none;
-		width: 100vw;
-	}	
-	
-	.navigation ul li a{
-		height: 40px;
-		font-size: 1rem;
-	}	
 	
 	
 /* Sub Menu Styles*/
 
 /* Nav Toggle Style */
 	ul{
-		position: fixed;
-		left: -100%;
-		top: 70px;
-		gap: 0;
-		flex-direction: column;
-		background-color: var(--clr-primary);
-		width: 100%;
-		text-align: center;
-		transition: 0.3s;
-	}
 	
-	.main-link{
-		margin: 16px 0;
-	}
-	
-	.main-menu.active{
-		left: 0;
 	}
 	
 	.hamburger{
@@ -295,10 +270,6 @@ button:hover{
 	
 	.hamburger.active .bar:nth-child(3){
 		transform: translateY(-8px) rotate(-45deg);
-	}
-/* Language Styles */
-	.language{
-		display: none;
 	}
 }
 
@@ -354,4 +325,8 @@ button:hover{
 	.gallery-container{
 		grid-template-columns: 1fr;
 	}
+}
+
+@media screen and (min-width: 1100px){
+	
 }
