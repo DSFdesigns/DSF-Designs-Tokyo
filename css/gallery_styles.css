@@ -124,6 +124,7 @@
 	align-items: center;
 	color: var(--clr-primary);
 	font-size: 0.8rem;
+	padding: 0.3rem;
 }
 
 /* Lightbox Styles */
