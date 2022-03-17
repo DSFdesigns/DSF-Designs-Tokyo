@@ -1,0 +1,104 @@
+:root{
+	--clr-primary: #263959;
+	--clr-secondary: #e4e7ec;
+	--clr-hover: #344259;
+	--clr-active: #7b90d2;
+	--clr-ahover: #2ea9df;
+	--clr-lihover: #2f436e;
+	--clr-background: #333333;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: #000;
+	font-size: 20px;
+	width: 100vw;
+	height: 100vh;
+}
+
+.container{
+	background-color: red;
+	margin: 0 auto;
+}
+
+#top{
+	width: 100vw;
+	background-color: #555;
+}
+
+#main-content{
+	width: 80%;
+	height: 100vh;
+	background-color: #111;
+	margin: 0 auto;
+}
+
+heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: blue;
+}
+
+.hero-text{
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+#footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #555;
+	height: 10%;
+}
+
+.footer-text{
+	color: #fff;
+	padding: 0.5rem;
+}
+
+.banner{
+	height: 250px;
+	background-image: url(../assets/img/fuji.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10%;
+	width: 100vw;
+	position: absolute;
+}
+
+.navigation .logo{
+	margin-left: 2rem;
+}
+
+.navigation .links{
+	display: flex;
+	margin-right: 2rem;
+	list-style: none;
+}
+
+.navigation .links li{
+	padding-left: 1.5rem;
+}
+
+.navigation .links li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
