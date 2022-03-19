@@ -18,7 +18,6 @@
 
 body{
 	font-size: 20px;
-	background-color: green;
 }
 
 #container{
@@ -73,7 +72,7 @@ body{
 header{
 	width: 100vw;
 	height: 100vh;
-	background-image: url(../assets/backgrounds/bg-1.jpg);
+	background-image: url(../assets/backgrounds/bg-1.webp);
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
