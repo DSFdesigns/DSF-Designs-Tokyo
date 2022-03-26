@@ -63,10 +63,17 @@ body{
 
 .hamburger{
 	display: none;
+	margin-right: 2rem;
 }
 
 .bar{
-	
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: #fff;
 }
 
 header{
@@ -81,7 +88,8 @@ header{
 .overlay{
 	height: 100vh;
 	width: 100vw;
-	background-color: rgba(2,2,2,  0.2);
+	background-color: rgba(2,2,2, 0.5);
+	z-index: 1000;
 }
 
 .hero-container{
@@ -111,6 +119,12 @@ header{
 	padding: 5px 10px;
 	font-size: 1rem;
 	border-radius: 0.5rem;
+	border: none;
+	background-color: var(--clr-secondary);
+}
+
+.btn button:hover{
+	background-color: var(--clr-hover);
 }
 
 .footer{
@@ -173,6 +187,7 @@ header{
 }
 
 .gallery-footer{
+	clear: both;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -212,4 +227,15 @@ header{
 	padding: 4px;
 	background-color: var(--clr-secondary);
 	border: 2px solid #fff;
+}
+
+@media only screen and (max-width: 1100px){
+	.hamburger{
+		display: block;
+	}
+	
+	nav ul li{
+		display: none;
+	}
+	
 }

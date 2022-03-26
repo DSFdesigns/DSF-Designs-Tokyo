@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<meta name="description" content="DSF Designs Website">
+	<meta name="description" content="Japan cherry blossom gallery">
 	<meta name="keywords" content="HTML, CSS, JavaScript">
 	<meta name="author" content="Andre F" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>404 Not Found</title>
+	<title>Cherry Blossoms</title>
 	<link rel="stylesheet" href="../css/styles.css" type="text/css" />
-	<script src="./scripts/script.js" defer></script>
+	<link rel="stylesheet" href="../css/gallery_styles.css" type="text/css" />
+	<script src="../scripts/script.js" defer></script>
 </head>
 
 <body>
 	<header class="flex-nav" id="header-container">
 		
 		<div class="logo">
-			<a href="../index.html">
+			<a href="./index.html">
 				<img src="../assets/branding/dsf-logo-inline.svg" alt="logo" />
 			</a>
 		</div>
@@ -23,19 +24,19 @@
 		<nav class="navigation" id="nav-links">
 			<ul class="main-menu">
 				<li class="main-link"><a class="active" href="./index.html">Home</a></li>
-				<li><a href="./about.html">About</a></li>
+				<li><a href="./pages/about.html">About</a></li>
 				<li class="main-link"><a href="#">Work &#x25BC;</a>
 						<ul class="sub-menu">
-							<li class="sub-link"><a class="sub" href="./resume.html">Resume Link (JP/EN)</a></li>
+							<li class="sub-link"><a class="sub" href="./pages/resume.html">Resume Link (JP/EN)</a></li>
 							<li class="sub-link"><a class="sub" href="#">Portfolio</a></li>
-							<li class="sub-link"><a class="sub" href="../shop/index.html">Shop</a></li>
-							<li class="sub-link"><a class="sub" href="./nft.html">NFT (future update)</a></li>
+							<li class="sub-link"><a class="sub" href="./shop/index.html">Shop</a></li>
+							<li class="sub-link"><a class="sub" href="#">NFT (future update)</a></li>
 						</ul>
 				</li>
 				<li class="main-link"><a href="#">Galleries &#x25BC;</a>
 						<ul class="sub-menu">
 							<li class="sub-link"><a class="sub" href="./gato.html">Gato</a></li>
-							<li class="sub-link"><a class="sub" href="./kamon.html">Samurai Kamon</a></li>
+							<li class="sub-link"><a class="sub" href="./kamon.html">Stone Kokuin</a></li>
 							<li class="sub-link"><a class="sub" href="./manhole.html">Manhole Covers</a></li>
 							<li class="sub-link"><a class="sub" href="./shrines.html">Shrines & Kofun</a></li>
 							<li class="sub-link"><a class="sub" href="./cats.html">Cats of Saitama</a></li>
@@ -45,6 +46,7 @@
 				</li>
 				<li class="main-link"><a href="#">Blogs &#x25BC;</a>
 						<ul class="sub-menu">
+							<li class="sub-link"><a class="sub" href="#">My Gear</a></li>
 							<li class="sub-link"><a class="sub" href="https://www.youtube.com/channel/UCzVlI1euUYN-bGJntUPdqnw">Youtube</a></li>
 							<li class="sub-link"><a class="sub" href="#">Travel</a></li>
 							<li class="sub-link"><a class="sub" href="../web_app/flashcard_app/index.html">Japanese</a></li>
@@ -56,7 +58,7 @@
 		</nav>
 		
 		<div class="language">
-			<a href="../index.html">
+			<a href="index.html">
 				<img src="../assets/img/japan.svg" href="../index.html" alt="japanese" />
 			</a>
 		</div>
@@ -67,17 +69,49 @@
 			<span class="bar"></span>
 		</div>
 	</header>
-
-	<section class="not-found">
-		<div class="not-found-container">
-			<h1 class="nf-text">404 Page Not Found!</h1>
-			<p class="nf-paragraph">The page you are looking for cannot be found or does not exist.<br>
-			Please click <a href="./index.html">here</a> to return to the Home Page.
-			</p>
-		</div>
-	</section>
 	
-	<footer class="footer">
+	<main id="gallery">
+		<div class="gallery-container">
+			<div class="image-card">
+				<img class="img" src="../assets/sakura/sakura_1.webp" alt="sakura" />
+				<h2 class="name">(Goseki, Saitama (五隻))</h2>
+			</div>
+			
+			<div class="image-card">
+				<img class="img" src="" alt="sakura" />
+			</div>
+			
+			<div class="image-card">
+				<img class="img" src="" alt="sakura" />
+			</div>
+			
+			<div class="image-card">
+				<img class="img" src="" alt="sakura" />
+			</div>
+			
+			<div class="image-card">
+				<img class="img" src="" alt="sakura" />
+			</div>
+			
+			<div class="image-card">
+				<img class="img" src="" alt="sakura" />
+			</div>
+			
+			<div class="image-card">
+				<img class="img" src="" alt="sakura" />
+			</div>
+			
+			<div class="image-card">
+				<img class="img" src="" alt="sakura" />
+			</div>
+			
+			<div class="image-card">
+				<img class="img" src="" alt="sakura" />
+			</div>
+		</div>
+	</main>
+	
+	<footer class="footer" id="gallery-footer">
 		<p>
 			DSF Designs Tokyo<br>
 			<small>&copy;2022 DSF Designs</small>
