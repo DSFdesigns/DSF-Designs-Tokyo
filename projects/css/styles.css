@@ -30,7 +30,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: calc(100% - 140px);
+	height: calc(100% - 150px);
 	background-color: var(--clr-secondary);
 }
 
