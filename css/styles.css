@@ -179,7 +179,7 @@ body {
 	text-align: center;
 	background-color: var(--clr-primary);
 	height: 50px;
-	position: absolute;
+	position: clear;
 	bottom: 0;
 	width: 100vw;
 }
