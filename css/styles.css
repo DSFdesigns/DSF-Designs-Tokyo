@@ -199,9 +199,7 @@ body {
 	background-image: url(../assets/background/bg-2a.webp);
 	background-size: cover;
 	background-position: center;
-	height: calc(100vh - 130px);
 	width: 100vw;
-	overflow: auto;
 }
 
 .form-container{
