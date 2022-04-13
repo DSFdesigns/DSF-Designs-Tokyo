@@ -19,9 +19,8 @@
 body{
 	background-color: var(--clr-secondary);
 	font-size: 18px;
-	overflow-y: scroll;
 	width: 100vw;
-	height: calc(100vh - 130px);
+	height: 100vh;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
