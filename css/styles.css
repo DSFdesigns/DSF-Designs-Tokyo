@@ -159,6 +159,7 @@ body {
 	background-image: url(../assets/background/bg-1a.webp);
 	background-size: cover;
 	background-position: center;
+	height: calc(100vh - 50px);
 }
 
 .overlay{
