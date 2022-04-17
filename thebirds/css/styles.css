@@ -40,8 +40,13 @@ body{
 }
 
 .navigation .logo{
-	padding-left: 2rem;
-	height: 60px;
+	margin-left: 2rem;
+	height: 100%;
+}
+
+.logo img{
+	min-height: 9%;
+	background-color: blue;
 }
 
 .navigation ul{
@@ -103,16 +108,20 @@ header{
 	display: flex;
 	flex-direction: column;
 	margin-left: 5%;
+	height: 20%%;
+	background-color: red;
 }
 
 .hero-text h1{
 	color: #fff;
 	padding-bottom: 0.2rem;
+	font-size: 1.5em;
 }
 
 .hero-text p{
 	color: #fff;
 	padding-bottom: 0.2rem;
+	font-size: 1em;
 }
 
 .btn button{
