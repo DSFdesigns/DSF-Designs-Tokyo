@@ -518,6 +518,10 @@ form{
 		width: 100%;
 		background-color: var(--clr-primary);
 	}
+	
+	.sub-menu{
+		overflow: auto;
+	}
 
 	.sub-menu .sub-link{
 		width: 100%;
