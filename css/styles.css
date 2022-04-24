@@ -504,8 +504,8 @@ form{
 	}	
 	
 	.navigation .main-menu li a{
-		height: 40px;
-		font-size: 1rem;
+		font-size: 0.8rem;
+		height: 25px
 	}	
 	
 /* Sub Menu Styles*/
@@ -524,7 +524,8 @@ form{
 	}
 
 	.sub-menu .sub-link .sub{
-		height: 40px;
+		font-size: 0.8rem;
+		height: 25px;
 	}
 /* Nav Toggle Style */
 	.main-menu{
