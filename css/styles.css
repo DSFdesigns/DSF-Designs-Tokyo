@@ -149,7 +149,7 @@ body {
 /* Main Content Styles */
 #main{
 	width: 100vw;
-	min-height: calc(100vh - 180px);
+	min-height: calc(100vh - 160px);
 }
 
 .bg-1a{
@@ -160,7 +160,7 @@ body {
 }
 
 .overlay{
-	min-height: calc(100vh - 180px);
+	min-height: calc(100vh - 160px);
 	width: 100vw;
 	background-color: rgba(0,0,0,0.6);
 }
@@ -179,7 +179,7 @@ body {
 	align-items: center;
 	text-align: center;
 	background-color: var(--clr-primary);
-	height: 60px;
+	height: 80px;
 	position: absolute;
 	bottom: 0;
 	width: 100vw;
@@ -345,7 +345,7 @@ form{
 	align-items: center;
 	text-align: center;
 	background-color: var(--clr-primary);
-	height: 50px;
+	height: 80px;
 	width: 100vw;
 	position: relative;
 }
