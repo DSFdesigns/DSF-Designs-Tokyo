@@ -63,6 +63,7 @@
 .grid-image .img{
 	width: 200px;
 	border-radius: 1rem;
+	object-fit: cover;
 }
 
 .g-footer{
@@ -104,6 +105,7 @@
 	margin: 0 auto;
 	height: 300px;
 	width: 200px;
+	overflow: hidden;
 }
 
 .image-card img{
