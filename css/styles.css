@@ -312,6 +312,11 @@ form{
 	justify-content: center;
 }
 
+.image-card img{
+	object-fit: cover;
+	position: center;
+}
+
 .grid img{
 	height: 200px;
 	width: 200px;
