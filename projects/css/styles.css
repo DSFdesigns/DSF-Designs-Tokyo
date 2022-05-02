@@ -30,7 +30,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: calc(100% - 150px);
+	height: calc(100% - 160px);
 	background-color: var(--clr-secondary);
 }
 
@@ -110,7 +110,7 @@ input{
 	align-items: center;
 	text-align: center;
 	width: 100vw;
-	height: 70px;
+	height: 80px;
 	background-color: var(--clr-primary);
 	position: fixed;
 	bottom: 0;
