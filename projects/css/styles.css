@@ -25,15 +25,6 @@ body{
 	padding: 0;
 }
 
-.container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: calc(100% - 160px);
-	background-color: var(--clr-secondary);
-}
-
 header{
 	display: flex;
 	justify-content: space-between;
@@ -41,6 +32,16 @@ header{
 	width: 100vw;
 	height: 80px;
 	background-color: var(--clr-primary);
+}
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: calc(100vh - 160px);
+	background-color: var(--clr-secondary);
 }
 
 .logo img{
