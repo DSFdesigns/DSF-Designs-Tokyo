@@ -461,13 +461,16 @@ form{
 }
 
 /* Download Resume Styles */
-#resume-container{
+#resume{
+	
+}
+
+#resume .resume-container{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	height: calc(100vh - 160px);
-	width: 100%;
 }
 
 .download-links{
