@@ -34,3 +34,6 @@ lightbox.addEventListener('click', e => {
 	if (e.target !== e.currentTarget) return
 	lightbox.classList.remove('active')
 })
+
+// Update Year //
+document.getElementById("copyright-year").innerHTML = new Date().getFullYear();

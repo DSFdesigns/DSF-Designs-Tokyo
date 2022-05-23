@@ -282,7 +282,7 @@ form{
 	justify-content: center;
 	text-align: center;
 	width: 100vw;
-	height: calc(100vh - 130px);
+	height: calc(100vh - 160px);
 }
 
 .not-found-container{
