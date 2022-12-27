@@ -37,3 +37,13 @@ lightbox.addEventListener('click', e => {
 
 // Update Year //
 document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+
+/* Change Cursor 
+var elms = document.getElementByIdTagName("*");
+var n = elms.length;
+for(var i = 0; i < n; i ++) {
+	if(window.getComputedStyle(elms[i]).cursor == "pointer") {
+		elms[i].style.cursor = "url(newcursor.ico)";
+	}
+}
+*/
