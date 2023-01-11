@@ -33,7 +33,7 @@ header{
 	height: 80px;
 	background-color: var(--clr-primary);
 }
-
+/* Logo Styles */
 header .logo{
 	display: flex;
 	margin-left: 1.5rem;
@@ -42,7 +42,7 @@ header .logo{
 header .logo img{
 	height: 60px;
 }
-
+/* Main Navigation */
 .main-navigation ul{
 	list-style: none;
 	display: flex;
@@ -85,16 +85,24 @@ header .logo img{
 	display: hidden;
 }
 
+.main-nav-links li:hover > .sub-menu,
+.main-nav-links li .sub-link:hover{
+	display: visible;
+}
 
-
-main{
-	height: calc(100vh - 120px);
+.bg-1a{
+	height: calc(100vh - 160px);
 	width: 100%;
-	background-color: var(--clr-secondary);
 	background-image: url(../assets/background/bg-1a.webp);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.overlay{
+	min-height: calc(100vh - 160px);
+	width: 100vw;
+	background-color: rgba(0,0,0,0.7);
 }
 
 main .hero{
