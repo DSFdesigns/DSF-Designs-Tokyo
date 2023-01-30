@@ -74,7 +74,7 @@ header .logo img{
 .main-navigation .sub-menu{
 	visibility: hidden;
 	position: absolute;
-	top: 80;
+	top: 80px;
 }
 
 .main-navigation li:hover{
@@ -82,12 +82,12 @@ header .logo img{
 }
 
 .sub-menu{
-	display: hidden;
+	display: none;
 }
 
 .main-nav-links li:hover > .sub-menu,
 .main-nav-links li .sub-link:hover{
-	display: visible;
+	display: none;
 }
 
 .bg-1a{
