@@ -1,0 +1,319 @@
+/* Global styles */
+:root{
+	--clr-primary: #222;
+	--clr-secondary: #d6d6d6;
+	--clr-text: #d6d6d6;
+	--clr-background: #333;
+	--clr-heading: #111;
+	--clr-ahover: #777;
+	--clr-ctahover: #555;
+	--clr-cta: #999;
+	--clr-acta: #fff;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: var(--clr-secondary);
+}
+
+.wrapper{
+	height: 100vh;
+	width: 100vw;
+}
+
+/* Section styles */
+#logo-container{
+	grid-area: logo;
+	background-color: var(--clr-primary);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#hero-container{
+	background-color: var(--clr-background);
+	background-image: url(../assets/img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 150px;
+}
+
+#navigation-container{
+	display: flex;
+	justify-content: center;
+	background-color: var(--clr-primary);
+}
+
+#heading-about, 
+#heading-drink, 
+#heading-pastries, 
+#heading-hours, 
+#heading-contact{
+	display: flex;
+	justify-content: center;
+	background-color: #333;
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+}	
+
+.wrapper {
+	background-color: #999;
+	width: 1200px;
+	height: 100%;
+}
+
+.sticky {
+	overflow-y: auto;
+  width: 100%; 
+  color:  white; 
+  position: sticky;
+  top: 0px;
+}
+
+/* Logo Container */
+#logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	background-color: var(--clr-primary);
+}
+
+.logo {
+	height: 50px;
+	width: auto;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+/* Banner Styles */
+#hero-container {
+	width: 100%;
+	height: 200px;
+	background-color: #666;
+	background-image: url("../assets/img/banner_update.jpg");
+	background-size: 1200px 200px;
+	background-repeat: no-repeat;
+}
+
+#hero-container .hero-text {
+	font-size: 1.5rem;
+	color: var(--clr-text);
+	padding: 1.5rem; 
+	text-shadow: 2px 1px #000;
+}
+
+/* Navigation Styles */
+#navigation-container {
+	
+}
+
+.main-nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 70px;
+	background-color: var(--clr-primary);
+}
+
+.main-nav .nav-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	list-style: none;
+}
+
+.nav-links a {
+	color: var(--clr-text);
+	padding: 0 2rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+	color: var(--clr-ahover);
+}
+
+/* About Section */
+#heading-about, 
+#heading-pastries,
+#heading-drink,
+#heading-hours,
+#heading-contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	color: var(--clr-text);
+	background-color: var(--clr-heading);
+	font-size: 1rem;
+}
+
+
+#about {
+	display: flex;
+	align-items: center;
+	flex-basis: 30%;
+	width: 100%;
+	height: 350px;
+	background-color: var(--clr-primary);
+}
+
+#about .about-description {
+	font-size: 0.9rem;
+	color: var(--clr-text);
+	width: 400px;
+	padding: 0 2rem;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	margin: auto;
+}
+
+/* Drink Menu Styles */
+#drink-menu {
+	display: flex;
+	width: 100%;
+	height: 350px;
+	background-color: var(--clr-primary);
+}
+
+.menu-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 0 1rem ; 
+}
+
+.menu-description {
+	color: var(--clr-text);
+	font-size: 0.9rem;
+	padding: 0 1em;
+}
+
+/* Pastries Menu Styles */
+#pastries-menu {
+	display: flex;
+	width: 100%;
+	height: 350px;
+	background-color: var(--clr-primary);
+}
+
+/* Hours Styles */
+#hours {
+	display: flex;
+	width: 100%;
+	height: 350px;
+	background-color: var(--clr-primary);
+}
+
+.hours-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.hours-description {
+	color: var(--clr-text);
+	font-size: 0.9rem;
+	padding: 0 1em;
+}
+
+/* Contact Styles */
+#contact {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 350px;
+	background-color: var(--clr-primary);
+}
+
+.form-container {
+	display: flex;
+	background-color: var(--clr-primary);
+	width: 100%;
+	height: 100%;
+}
+
+#form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 45%;
+	height: 300px;
+	background-color: var(--clr-secondary);
+	margin: auto 2rem;
+	border-radius: 1rem;
+	border: 2px solid var(--clr-secondary);
+}
+
+input {
+	width: 90%;
+}
+/*
+#map {
+	background-color: blue;
+	width: 45%;
+	height: 300px;
+	display: flex; 
+	justify-content: center;
+	margin: auto 2rem;
+	border-radius: 1rem;
+	border: 2px solid var(--clr-secondary);
+}
+*/
+h3 {
+	color: var(--clr-text);
+	padding: 10px;
+}
+
+iframe {
+	width: 45%;
+	height: 300px;
+	border: 0;
+	margin: auto 2rem;
+	border-radius: 1rem;
+	border: 2px solid var(--clr-secondary);
+}
+
+/* Footer Styles */
+#footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: var(--clr-heading);
+	width: 100%;
+	height: 70px;
+}
+
+#footer-container .footer-description {
+	color: var(--clr-text);
+	font-size: 0.9rem;
+}
