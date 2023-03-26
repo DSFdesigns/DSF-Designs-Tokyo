@@ -43,7 +43,6 @@ body{
 	align-items: center;
 }
 
-
 #hero-container{
 	background-color: var(--clr-background);
 	background-image: url(../assets/img/banner.jpg);
@@ -75,14 +74,6 @@ body{
 	background-color: #999;
 	width: 1200px;
 	height: 100%;
-}
-
-.sticky {
-	overflow-y: auto;
-  width: 100%; 
-  color:  white; 
-  position: sticky;
-  top: 0px;
 }
 
 /* Logo Container */
@@ -122,8 +113,15 @@ body{
 }
 
 /* Navigation Styles */
+.sticky {
+  position: sticky;
+  top: 0px;
+	z-index: 1;
+}
+
 #navigation-container {
-	
+	width: 100%;
+	height: 70px;
 }
 
 .main-nav {
@@ -242,7 +240,7 @@ img {
 .hours-description {
 	color: var(--clr-text);
 	font-size: 0.9rem;
-	padding: 0 1em;
+	padding: 0 2em;
 }
 
 /* Contact Styles */
@@ -273,24 +271,29 @@ img {
 	border: 2px solid var(--clr-secondary);
 }
 
+label {
+	padding: 0 1rem;
+}
+
 input {
 	width: 90%;
+	height: 20px;
 }
-/*
-#map {
-	background-color: blue;
-	width: 45%;
-	height: 300px;
-	display: flex; 
-	justify-content: center;
-	margin: auto 2rem;
-	border-radius: 1rem;
-	border: 2px solid var(--clr-secondary);
+
+textarea {
+	width: 90%;
 }
-*/
+
 h3 {
 	color: var(--clr-text);
 	padding: 10px;
+}
+
+#form button {
+	width: 90%;
+	height: 20px;
+	border-radius: 10px;
+	margin: 10px 0;
 }
 
 iframe {
@@ -314,6 +317,11 @@ iframe {
 }
 
 #footer-container .footer-description {
+	color: var(--clr-text);
+	font-size: 0.9rem;
+}
+
+.footer-description a {
 	color: var(--clr-text);
 	font-size: 0.9rem;
 }
