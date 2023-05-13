@@ -72,6 +72,7 @@ table{
 	width: 1200px;
 	color: #fff;
 	font-size: 1rem;
+	padding: 1rem 0;
 }
 
 caption{
@@ -178,4 +179,7 @@ footer{
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	color: #fff;
+	background-color: var(--clr-header);
+	padding: 0.5rem;
 }
