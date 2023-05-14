@@ -22,6 +22,10 @@ body{
 	text-align: center;
 }
 
+.container{
+	padding: 1rem;
+}
+/* Navigation syles */
 header{
 	display: flex;
 	justify-content: space-between;
@@ -67,12 +71,11 @@ ul a:hover{
 	padding: 1.5rem;
 	color: var(--clr-text);
 }
-
+/* Table styles */
 table{
 	width: 1200px;
 	color: #fff;
 	font-size: 1rem;
-	padding: 1rem 0;
 }
 
 caption{
@@ -175,6 +178,10 @@ input:checked + .slider:before{
 	border-radius: 50%;
 }
 
+/* Login screen styles */
+
+
+/* Footer styles */
 footer{
 	display: flex;
 	justify-content: center;
@@ -182,4 +189,5 @@ footer{
 	color: #fff;
 	background-color: var(--clr-header);
 	padding: 0.5rem;
+	font-size: 0.9rem;
 }
