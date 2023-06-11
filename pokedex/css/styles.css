@@ -112,6 +112,11 @@ img{
 	height: 64px;
 }
 
+.type{
+	width: 30px;
+	height: 30px;
+}
+
 .container{
 	width: 100%;
 	display: flex;
