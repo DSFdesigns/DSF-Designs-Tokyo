@@ -2,8 +2,8 @@
 	--clr-text: #fff;
 	--clr-headings: #fff;
 	--clr-header: #555;
-	--clr-odd: #777;
-	--clr-even: #555;
+	--clr-odd: #666;
+	--clr-even: #222;
 }
 
 *{
@@ -191,8 +191,62 @@ footer{
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	align-items: center;
 	color: #fff;
 	background-color: var(--clr-header);
-	padding: 0.5rem;
 	font-size: 0.9rem;
+	height: 60px;
+}
+
+/* Form styles */
+.login-container{
+	background-color: 777;
+	width: 100%;
+	height: calc(100vh - 140px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-container{
+	background-color: #444;
+	height: 500px;
+	width: 400px;
+	padding: 20px 0;
+	border-radius: 1rem;
+}
+
+.login-footer{
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
+
+/* Pokeball Styles */
+.poke-container{
+	width: 25em;
+	height: 25em;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pokeball{
+	background-color: linear-gradient(0deg, #fff 0%, #fff 50%, #fb0d3e 50%, #fb0d3e 100%);
+	width: 96.5%;
+	height: 96.5%;
+	border-radius: 50%;
+	border: 7px #111 solid;
+	transform: translate(-50%, -50%);
+}
+
+.pokeball::before, .btn::before{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50, -50%);
 }
