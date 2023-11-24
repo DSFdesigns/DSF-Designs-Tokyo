@@ -183,6 +183,11 @@ input:checked + .slider:before{
 	border-radius: 50%;
 }
 
+.note p{
+	color: #fff;
+	padding: 0 0 1.5rem 0;
+}
+
 /* Login screen styles */
 
 
