@@ -188,9 +188,6 @@ input:checked + .slider:before{
 	padding: 0 0 1.5rem 0;
 }
 
-/* Login screen styles */
-
-
 /* Footer styles */
 footer{
 	display: flex;
@@ -203,7 +200,11 @@ footer{
 	height: 60px;
 }
 
-/* Form styles */
+/* Pokeball Styles */
+.login-screen{
+	width: 100%;
+}
+
 .login-container{
 	background-color: 777;
 	width: 100%;
@@ -230,7 +231,15 @@ footer{
 	text-align: center;
 }
 
-/* Pokeball Styles */
+.poke-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+
 .poke-container{
 	width: 25em;
 	height: 25em;
