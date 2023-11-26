@@ -237,7 +237,7 @@ footer{
 	align-items: center;
 	width: 100%;
 	height: 100%;
-	background-color: red;
+	background-color: #777;
 }
 
 .poke-container{
@@ -249,6 +249,7 @@ footer{
 	align-items: center;
 }
 
+/*
 .pokeball{
 	background-color: linear-gradient(0deg, #fff 0%, #fff 50%, #fb0d3e 50%, #fb0d3e 100%);
 	width: 96.5%;
@@ -264,3 +265,4 @@ footer{
 	left: 50%;
 	transform: translate(-50, -50%);
 }
+*/
