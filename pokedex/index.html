@@ -5,7 +5,9 @@
 	<title>National Pokedex</title>
 	<link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
+<!-- Header Start -->
 	<header>
 		<div class="logo">
 			<a href="https://dsfdesignstokyo.com">
@@ -21,11 +23,11 @@
 			</nav>
 		</div>
 	</header>
-	
+	<!-- Header End -->
 	<div class="heading">
 		<h1>National Pokedex</h1>
 	</div>
-	
+<!-- Table Container Start -->
 	<div class="container">
 <!-- Table Starts Here -->
 		<table>
@@ -453,7 +455,7 @@
 					<td><img src="./assets/shiny/pikachu.png" alt="shiny" title="Shiny"></td>
 					<td>N/A</td>
 					<td>Pikachu</td>
-					<td>Thunder Stone</td>
+					<td><img class="evo-item" src="assets/evo-item/thunder-stone.png" alt="thunder stone" title="Thunder Stone"></td>
 					<td>
 						<img src="./assets/type/electric.png" alt="type" class="type" title="Electric">
 					</td>
@@ -536,7 +538,7 @@
 					<td><img src="./assets/shiny/nidorina.png" alt="shiny" title="Shiny"></td>
 					<td>N/A</td>
 					<td>Nidoran</td>
-					<td>Moon Stone</td>
+					<td><img class="evo-item" src="./assets/evo-item/moon-stone.png" alt="moon stone" title="Moon Stone"></td>
 					<td>
 						<img src="./assets/type/poison.png" alt="type" class="type" title="Poison">
 					</td>
@@ -584,7 +586,7 @@
 					<td><img src="./assets/shiny/nidorina.png" alt="shiny" title="Shiny"></td>
 					<td>N/A</td>
 					<td>Nidorino</td>
-					<td>Moon Stone</td>
+					<td><img class="evo-item" src="./assets/evo-item/moon-stone.png" alt="moon stone" title="Moon Stone"></td>
 					<td>
 						<img src="./assets/type/poison.png" alt="type" class="type" title="Poison">
 					</td>
@@ -617,7 +619,7 @@
 					<td><img src="./assets/shiny/clefairy.png" alt="shiny" title="Shiny"></td>
 					<td>N/A</td>
 					<td>Clefairy</td>
-					<td>High FL</td>
+					<td><img class="evo-item" src="./assets/evo-item/moon-stone.png" alt="moon stone" title="Moon Stone"></td>
 					<td>
 						<img src="./assets/type/fairy.png" alt="type" class="type" title="Fairy">
 					</td>
@@ -633,9 +635,47 @@
 					<td><img src="./assets/shiny/clefable.png" alt="shiny" title="Shiny"></td>
 					<td>N/A</td>
 					<td>Clefable</td>
-					<td>Moon Stone</td>
+					<td>-</td>
 					<td>
 						<img src="./assets/type/fairy.png" alt="type" class="type" title="Fairy">
+					</td>
+					<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
+					<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
+					<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
+					<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
+				</tr>
+				
+				<tr class="odd">
+					<td>#0037</td>
+					<td><img src="./assets/regular/vulpix.png" alt="normal" title="Normal"></td>
+					<td><img src="./assets/shiny/vulpix.png" alt="shiny" title="Shiny"></td>
+					<td><img src="./assets/regular/vulpix-alola.png" alt="alolan" title="Alolan"></td>
+					<td>Vulpix</td>
+					<td>
+						<img class="evo-item" src="./assets/evo-item/fire-stone.png" alt="fire stone" title="Fire Stone">
+						<img class="evo-item" src="./assets/evo-item/ice-stone.png" alt="ice stone" title="Ice Stone">*
+						</td>
+					<td>
+						<img src="./assets/type/fire.png" alt="type" class="type" title="Fire">
+						<img src="./assets/type/ice.png" alt="type" class="type" title="Ice">*
+					</td>
+					<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
+					<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
+					<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
+					<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
+				</tr>
+				
+				<tr class="even">
+					<td>#0038</td>
+					<td><img src="./assets/regular/ninetales.png" alt="normal" title="Normal"></td>
+					<td><img src="./assets/shiny/ninetales.png" alt="shiny" title="Shiny"></td>
+					<td><img src="./assets/regular/ninetales-alola.png" alt="alolan" title="Alolan"></td>
+					<td>Ninetales</td>
+					<td>-</td>
+					<td>
+						<img src="./assets/type/fire.png" alt="type" class="type" title="Fire">
+						<img src="./assets/type/ice.png" alt="type" class="type" title="Ice">*
+						<img src="./assets/type/fairy.png" alt="type" class="type"	title="Fairy">*
 					</td>
 					<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
 					<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
@@ -647,14 +687,18 @@
 		</table>
 	<!-- Table Ends Here -->
 	</div>
+	<!-- Table Container End -->
+	<!-- Note Section Start -->
 	<div class="note">
 		<p>Note: Types with an * apply to Alolan pokemon.</p>
 	</div>
-
+	<!-- Note Section End -->
+<!-- Footer Start -->
 	<footer>
 		<p>National Pokedex<br>
 			<small>&copy;2023 DSF Designs</small>
 		</p>
 	</footer>
+<!-- Footer End -->
 </body>
 </html>
