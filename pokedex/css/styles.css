@@ -76,6 +76,7 @@ table{
 	width: 1200px;
 	color: #fff;
 	font-size: 1rem;
+	border: 1px;
 }
 
 caption{
@@ -206,7 +207,7 @@ footer{
 }
 
 .login-container{
-	background-color: 777;
+	background-color: #777;
 	width: 100%;
 	height: calc(100vh - 140px);
 	display: flex;
