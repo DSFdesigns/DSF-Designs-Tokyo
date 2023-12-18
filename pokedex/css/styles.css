@@ -7,6 +7,7 @@
 	--clr-even: #222;
 	--clr-logo: #fff;
 	--clr-body: #333;
+	--clr-slider: #2196F3;
 }
 
 *{
@@ -78,7 +79,7 @@ ul a:hover{
 }
 /* Table styles */
 table{
-	width: 1200px;
+	width: 1920px;
 	color: #fff;
 	font-size: 1rem;
 	border: 1px;
@@ -96,9 +97,20 @@ thead{
 }
 
 th{
-	width: 200px;
 	height: 50px;
 	font-size: 1rem;
+}
+
+.pk-number{
+	width: 100px;
+}
+
+.pk-types{
+	width:  150px;
+}
+
+.reigon{
+	width: 80px;
 }
 
 tr{
@@ -178,7 +190,7 @@ img{
 }
 
 input:checked + .slider{
-	background-color: #2196F3;
+	background-color: var(--clr-slider);
 }
 
 input:focus + .slider{
@@ -199,9 +211,39 @@ input:checked + .slider:before{
 	border-radius: 50%;
 }
 
+.note{
+	padding: 1rem;
+}
+
 .note p{
+	color: var(--clr-text);
+}
+
+/* Return to top */
+.return-top{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	margin: 1 0px;
+}
+.return-top a{
+	color: var(--clr-text);
+	padding: 2rem;
+}
+
+#save-btn{
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+	background-color: #2196F3;
 	color: #fff;
-	padding: 0 0 1.5rem 0;
+	cursor: pointer;
+}
+
+#save-btn:hover{
+	background-color: #777;
 }
 
 /* Footer styles */
