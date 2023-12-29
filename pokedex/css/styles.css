@@ -105,13 +105,43 @@ th{
 	width: 100px;
 }
 
+.pk-normal{
+	width: 100px;
+}
+
+.pk-shiny{
+	width: 100px;
+}
+
+.pk-reigon{
+	width: 100px;
+}
+
+.pk-name{
+	width: 100px;
+}
+
+.pk-evolve{
+	width: 100px;
+}
+
 .pk-types{
 	width:  150px;
 }
 
-.reigon{
-	width: 80px;
+.pk-seen{
+	width: 100px;
 }
+
+.pk-normal-caught{
+	width: 100px;
+}
+
+.pk-shiny-caught{
+	width: 100px;
+}
+
+.pk-reigon-caught
 
 tr{
 	text-align: center;
