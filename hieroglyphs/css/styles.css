@@ -1,6 +1,6 @@
 /* Global Styles */
 :root{
-	--clr-primary: #777777;
+	--clr-primary: #2a2624;
 	--clr-secondary: #333333;
 	--clr-hover: #344259;
 	--clr-active: #7b90d2;
@@ -38,6 +38,7 @@ main{
 .heading h1{
 	font-size: 2rem;
 	margin: 2rem 2rem;
+	color: var(--clr-text);
 }
 
 .logo, .color{
@@ -83,24 +84,34 @@ main{
 
 .glyph-card{
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
 	margin: 1rem;
-	width: 200px;
-	height: 300px;
+	width: 90%;
+	height: 100px;
 	background-color: var(--clr-card);
 	border-radius: 1.5rem;
 }
 
 .glyph-text{
-	font-size: 8rem;
+	margin: 0 1rem;
+	font-size: 4rem;
 	margin: 0;
-	padding: 1;
+	padding: 2rem;
 }
 
 .glyph-name{
-	margin: 2rem 0;
+	font-size: 2rem;
+	padding: 2rem;
+}
+
+.letter{
+	background-color: green;
+	font-size: 2rem;
+	padding: 0;
+	margin: 0;
+	text-align: center;
 }
 
 #logo h1{
