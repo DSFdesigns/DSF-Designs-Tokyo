@@ -10,6 +10,7 @@
 	--clr-text: #ffffff;
 	--clr-card: #9f8170;
 	--clr-glyph: #ffffff;
+	--clr-heading: #000000;
 }
 
 *{
@@ -17,6 +18,10 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+body::-webkit-scrollbar {
+		display: none;
 }
 
 body{
@@ -30,6 +35,10 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	background-color: var(--clr-secondary);
+}
+
+main{
+	overflow: hidden;
 }
 
 .content{
@@ -46,7 +55,9 @@ body{
 	margin: 0;
 	padding: 1rem;
 	text-align: center;
-	color: var(--clr-text);
+	color: var(--clr-heading);
+	font-weight: 400;
+	text-shadow: 1px 1px #fff;
 }
 
 .logo, .color{
@@ -65,7 +76,7 @@ body{
 
 .nav-links{
 	display: flex;
-	margin-right: 1rem;
+	margin-right: 0.8rem;
 	list-style: none;
 }
 
@@ -79,8 +90,21 @@ body{
 
 .link a{
 	text-decoration: none;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	color: var(--clr-text);
+}
+
+#hero-image{
+	background-color: red;
+	width: 100vw;
+	height: 100vh;
+}
+
+.bg-01{
+	background-image: url(../assets/bg-01.JPG);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* Glyph Card Styles */
@@ -139,7 +163,7 @@ body{
 	align-items: center;
 	background-color: #333;
 	bottom: 0;
-	position: relative;
+	position: fixed;
 	height: 60px;
 	width: 100vw;
 }
