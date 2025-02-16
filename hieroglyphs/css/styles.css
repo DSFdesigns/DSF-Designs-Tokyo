@@ -43,6 +43,7 @@ main{
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .content{
@@ -105,7 +106,6 @@ main{
 }
 
 #hero-image{
-	background-color: red;
 	width: 100vw;
 	height: 100vh;
 }
@@ -127,12 +127,11 @@ main{
 .glyph-container{
 	display: grid;
 	gap: 2rem;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(auto, 1fr);
 	color: var(--clr-glyph);
 	padding: 1rem;
 	width: auto;
-	background-color: red;
 }
 
 
@@ -151,16 +150,15 @@ main{
 	margin: 0 1rem;
 	font-size: 4rem;
 	margin: 0;
-	padding: 2rem;
 }
 
 .glyph-name{
 	font-size: 1.5rem;
 	padding: 1rem;
+	text-align: center;
 }
 
 .letter{
-	background-color: green;
 	font-size: 2rem;
 	padding: 0;
 	margin: 0;
