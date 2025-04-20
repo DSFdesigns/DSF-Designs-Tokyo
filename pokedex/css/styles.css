@@ -121,7 +121,7 @@ th{
 }
 
 .pk-name{
-	width: 100px;
+	width: 150px;
 }
 
 .pk-evolve{
@@ -144,7 +144,9 @@ th{
 	width: 100px;
 }
 
-.pk-reigon-caught
+.pk-reigon-caught{
+	width: 100px;
+}
 
 tr{
 	text-align: center;
