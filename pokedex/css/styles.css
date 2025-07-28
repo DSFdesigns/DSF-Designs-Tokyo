@@ -125,7 +125,7 @@ th{
 }
 
 .pk-evolve{
-	width: 100px;
+	width: 120px;
 }
 
 .pk-types{
@@ -194,7 +194,7 @@ img{
 	height: 34px;
 }
 
-/* Hide default HTML checkbox */
+/* Hide default HTML checkbox and slider styles */
 .switch input{
 	opacity: 0;
 	width: 0;
