@@ -114,9 +114,10 @@ body{
 
 /* Navigation Styles */
 .sticky {
-  position: sticky;
-  top: 0px;
-	z-index: 1;
+  	position: sticky;
+  	top: 0px;
+	z-index: 1000;
+	width: 100%;
 }
 
 #navigation-container {
@@ -181,7 +182,7 @@ body{
 	font-size: 0.9rem;
 	color: var(--clr-text);
 	width: 400px;
-	padding: 0 2rem;
+	padding: 1rem;
 }
 
 img {
