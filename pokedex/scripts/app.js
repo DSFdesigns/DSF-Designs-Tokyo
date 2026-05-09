@@ -7,7 +7,7 @@ myButton.addEventListener('click', (), => {
 	// Example: toggle a 'clicked' state //
 	const isClicked = true;
 	localStorage.setItem('buttonState', isClicked);
-});
+};
 
 // Restore the state on load //
 window.onload = () => {
@@ -16,4 +16,3 @@ window.onload = () => {
 		document.getElementById('myButton').disabled = true; // Or any other
 	}
 };
-// 

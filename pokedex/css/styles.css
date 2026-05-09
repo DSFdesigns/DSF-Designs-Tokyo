@@ -286,7 +286,7 @@ input:checked + .slider:before{
 }
 
 /* Footer styles */
-footer{
+.footer{
 	display: flex;
 	justify-content: center;
 	text-align: center;
