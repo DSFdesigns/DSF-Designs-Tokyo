@@ -16,3 +16,4 @@ window.onload = () => {
 		document.getElementById('myButton').disabled = true; // Or any other
 	}
 };
+// 
