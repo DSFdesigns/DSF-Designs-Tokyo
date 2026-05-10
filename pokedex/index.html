@@ -6,7 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>National Pokedex</title>
 		<link rel="stylesheet" href="./css/styles.css">
-		<script src="./scripts/app.js" defer></script>
 	</head>
 
 	<body>
@@ -18,7 +17,7 @@
 			<div class="navigation">
 				<nav>
 					<ul>
-						<li><a href="https://dsfdesignstokyo.com">DSF Home</a></li>
+						<li><a href="https://dsfdesigns.github.io/DSF-Designs-Tokyo">DSF Home</a></li>
 						<li><a href="./login.html">Login</a></li>
 					</ul>
 				</nav>
@@ -1641,7 +1640,7 @@
 							<img src="./assets/type/fairy.png" alt="type" class="type" title="Fairy">**
 							
 						</td>
-						<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
+						<td><button id="saveButton" class="off">Check</button></td>
 						<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
 						<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
 						<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
@@ -1672,15 +1671,20 @@
 			Types with ** apply to Hisuian Form.<br>
 			Types with *** apply to Galarian Form.</p>
 		</div>
+		
+
 
 
 		<!-- Note Section End -->
 	<!-- Footer Start -->
-		<footer class= "footer">
-			<p>National Pokedex<br>
-				<small>&copy; <span id="copyright-year"></span> DSF Designs</small>
-			</p>
-		</footer>
+	<footer class="footer">
+		<p>
+			DSF Designs Tokyo<br>
+			<small>&copy; <span id="copyright-year"></span> DSF Designs</small>
+		</p>
+	</footer>
 	<!-- Footer End -->
+	<script src="./scripts/date.js" defer></script>
+	<script src="./scripts/button.js" defer></script>
 	</body>
 </html>

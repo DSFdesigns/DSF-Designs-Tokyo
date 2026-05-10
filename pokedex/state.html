@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Button Save State</title>
+
+<style>
+
+    body{
+
+        font-family: Arial, sans-serif;
+
+        display:flex;
+
+        justify-content:center;
+
+        align-items:center;
+
+        height:100vh;
+
+        background:#f4f4f4;
+
+    }
+
+    button{
+
+        padding:15px 30px;
+
+        font-size:18px;
+
+        border:none;
+
+        border-radius:8px;
+
+        cursor:pointer;
+
+        transition:0.3s;
+
+    }
+
+    .off{
+
+        background:#444;
+
+        color:white;
+
+    }
+
+    .on{
+
+        background:#28a745;
+
+        color:white;
+
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<button id="saveButton" class="off">OFF</button>
+
+<script>
+
+    const button = document.getElementById("saveButton");
+
+    // Load saved state
+
+    let savedState = localStorage.getItem("buttonState");
+
+    if(savedState === "on"){
+
+        button.classList.remove("off");
+
+        button.classList.add("on");
+
+        button.textContent = "ON";
+
+    }
+
+    // Toggle button state
+
+    button.addEventListener("click", () => {
+
+        if(button.classList.contains("off")){
+
+            button.classList.remove("off");
+
+            button.classList.add("on");
+
+            button.textContent = "ON";
+
+            // Save state
+
+            localStorage.setItem("buttonState", "on");
+
+        } else {
+
+            button.classList.remove("on");
+
+            button.classList.add("off");
+
+            button.textContent = "OFF";
+
+            // Save state
+
+            localStorage.setItem("buttonState", "off");
+
+        }
+
+    });
+
+</script>
+
+</body>
+
+</html>

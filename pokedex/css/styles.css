@@ -270,7 +270,7 @@ input:checked + .slider:before{
 	padding: 2rem;
 }
 
-#save-btn{
+button#save-btn{
 	width: 100px;
 	height: 30px;
 	border-radius: 10px;
@@ -281,7 +281,7 @@ input:checked + .slider:before{
 	font-size: 1rem;
 }
 
-#save-btn:hover{
+button#save-btn:hover{
 	background-color: #777;
 }
 
@@ -326,4 +326,24 @@ input:checked + .slider:before{
 	width: 100%;
 	justify-content: center;
 	text-align: center;
+}
+
+/* State button */
+button #buttonState{
+	padding:15px 30px;
+	font-size:18px;
+	border:none;
+	border-radius:8px;
+	cursor:pointer;
+	transition:0.3s;
+}
+
+button #buttonState.off{
+	background:#444;
+	color:white;
+}
+
+button #buttonState.on{
+	background:#28a745;
+	color:white;
 }
