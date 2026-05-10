@@ -8,6 +8,8 @@
 	--clr-logo: #fff;
 	--clr-body: #333;
 	--clr-slider: #2196F3;
+	--clr-button-off: #555;
+	--clr-button-on: #2196F3;
 }
 
 *{
@@ -270,6 +272,7 @@ input:checked + .slider:before{
 	padding: 2rem;
 }
 
+/* Save Button */
 button#save-btn{
 	width: 100px;
 	height: 30px;
@@ -328,22 +331,30 @@ button#save-btn:hover{
 	text-align: center;
 }
 
-/* State button */
-button #buttonState{
-	padding:15px 30px;
-	font-size:18px;
+/* Pokemon save state button */
+#saveButton{
+	padding: 5px;
+	font-size:16px;
 	border:none;
 	border-radius:8px;
 	cursor:pointer;
 	transition:0.3s;
+	width: 60px;
+	align-items: center;
+	justify-content: center;
 }
 
-button #buttonState.off{
-	background:#444;
-	color:white;
+#saveButton:hover{
+	background-color: #777;
+	color: var(--clr-text);
 }
 
-button #buttonState.on{
-	background:#28a745;
-	color:white;
+.off{
+	background: var(--clr-button-off);
+	color: var(--clr-text);
+}
+
+.on{
+	background: var(--clr-button-on);
+	color: var(--clr-text);
 }
