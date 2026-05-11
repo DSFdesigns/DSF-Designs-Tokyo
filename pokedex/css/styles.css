@@ -338,13 +338,36 @@ button#save-btn:hover{
 	border:none;
 	border-radius:8px;
 	cursor:pointer;
-	transition:0.3s;
-	width: 60px;
-	align-items: center;
-	justify-content: center;
+	width: 70px;
+	height: 30px;
 }
 
 #saveButton:hover{
+	background-color: #777;
+	color: var(--clr-text);
+}
+
+.off{
+	background: var(--clr-button-off);
+	color: var(--clr-text);
+}
+
+.on{
+	background: var(--clr-button-on);
+	color: var(--clr-text);
+}
+/* Seen Button */
+#seenButton{
+	padding: 5px;
+	font-size:16px;
+	border:none;
+	border-radius:8px;
+	cursor:pointer;
+	width: 70px;
+	height: 30px;
+}
+
+#seenButton:hover{
 	background-color: #777;
 	color: var(--clr-text);
 }
