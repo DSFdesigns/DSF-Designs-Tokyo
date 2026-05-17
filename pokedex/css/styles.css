@@ -332,8 +332,8 @@ button#save-btn:hover{
 }
 
 /* Pokemon save state button */
-#saveButton, #normalButton{
-	padding: 5px;
+#saveButton{
+	padding: 5px
 	font-size:16px;
 	border:none;
 	border-radius:8px;
@@ -356,9 +356,10 @@ button#save-btn:hover{
 	background: var(--clr-button-on);
 	color: var(--clr-text);
 }
-/* Seen Button */
+
+/* seenButton */
 #seenButton{
-	padding: 5px;
+	padding: 5px
 	font-size:16px;
 	border:none;
 	border-radius:8px;
@@ -381,3 +382,190 @@ button#save-btn:hover{
 	background: var(--clr-button-on);
 	color: var(--clr-text);
 }
+
+/* seenButton */
+#normalButton{
+	padding: 5px
+	font-size:16px;
+	border:none;
+	border-radius:8px;
+	cursor:pointer;
+	width: 70px;
+	height: 30px;
+}
+
+#normalButton:hover{
+	background-color: #777;
+	color: var(--clr-text);
+}
+
+.off{
+	background: var(--clr-button-off);
+	color: var(--clr-text);
+}
+
+.on{
+	background: var(--clr-button-on);
+	color: var(--clr-text);
+}
+
+/* shinyButton */
+#shinyButton{
+	padding: 5px
+	font-size:16px;
+	border:none;
+	border-radius:8px;
+	cursor:pointer;
+	width: 70px;
+	height: 30px;
+}
+
+#shinyButton:hover{
+	background-color: #777;
+	color: var(--clr-text);
+}
+
+.off{
+	background: var(--clr-button-off);
+	color: var(--clr-text);
+}
+
+.on{
+	background: var(--clr-button-on);
+	color: var(--clr-text);
+}
+
+/* alolaButton */
+#alolaButton{
+	padding: 5px
+	font-size:16px;
+	border:none;
+	border-radius:8px;
+	cursor:pointer;
+	width: 70px;
+	height: 30px;
+}
+
+#alolaButton:hover{
+	background-color: #777;
+	color: var(--clr-text);
+}
+
+.off{
+	background: var(--clr-button-off);
+	color: var(--clr-text);
+}
+
+.on{
+	background: var(--clr-button-on);
+	color: var(--clr-text);
+}
+
+/* hisuiButton */
+
+#hisuiButton{
+	padding: 5px
+	font-size:16px;
+	border:none;
+	border-radius:8px;
+	cursor:pointer;
+	width: 70px;
+	height: 30px;
+}
+
+#alolaButton:hover{
+	background-color: #777;
+	color: var(--clr-text);
+}
+
+.off{
+	background: var(--clr-button-off);
+	color: var(--clr-text);
+}
+
+.on{
+	background: var(--clr-button-on);
+	color: var(--clr-text);
+}
+
+/* galarButton */
+#galarButton{
+	padding: 5px
+	font-size:16px;
+	border:none;
+	border-radius:8px;
+	cursor:pointer;
+	width: 70px;
+	height: 30px;
+}
+
+#galarButton:hover{
+	background-color: #777;
+	color: var(--clr-text);
+}
+
+.off{
+	background: var(--clr-button-off);
+	color: var(--clr-text);
+}
+
+.on{
+	background: var(--clr-button-on);
+	color: var(--clr-text);
+}
+
+/* paldeaButton */
+#paldeaButton{
+	padding: 5px
+	font-size:16px;
+	border:none;
+	border-radius:8px;
+	cursor:pointer;
+	width: 70px;
+	height: 30px;
+}
+
+#paldeaButton:hover{
+	background-color: #777;
+	color: var(--clr-text);
+}
+
+.off{
+	background: var(--clr-button-off);
+	color: var(--clr-text);
+}
+
+.on{
+	background: var(--clr-button-on);
+	color: var(--clr-text);
+}
+
+/* paldeaButton */
+#gigantamaxButton{
+	padding: 5px
+	font-size:16px;
+	border:none;
+	border-radius:8px;
+	cursor:pointer;
+	width: 70px;
+	height: 30px;
+}
+
+#gigantamaxButton:hover{
+	background-color: #777;
+	color: var(--clr-text);
+}
+
+.off{
+	background: var(--clr-button-off);
+	color: var(--clr-text);
+}
+
+.on{
+	background: var(--clr-button-on);
+	color: var(--clr-text);
+}
+
+
+
+
