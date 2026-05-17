@@ -332,7 +332,7 @@ button#save-btn:hover{
 }
 
 /* Pokemon save state button */
-#saveButton{
+#saveButton, #normalButton{
 	padding: 5px;
 	font-size:16px;
 	border:none;
@@ -342,7 +342,7 @@ button#save-btn:hover{
 	height: 30px;
 }
 
-#saveButton:hover{
+#saveButton, #normalButton:hover{
 	background-color: #777;
 	color: var(--clr-text);
 }

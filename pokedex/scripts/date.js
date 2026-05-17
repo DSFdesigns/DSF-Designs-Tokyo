@@ -2,8 +2,9 @@
 document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
 
 // Button save state script
-	const button = document.getElementById("seenButton");
-//	const button = document.getElementById("saveButton");
+//	const button = document.getElementById("seenButton");
+
+const elements = document.querySelectorAll("#seenButton"); // must change button to elements
 // Load saved state
     let savedState = localStorage.getItem("buttonState");
     if(savedState === "on"){
@@ -29,5 +30,4 @@ document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
             localStorage.setItem("buttonState", "off");
         }
     });
-	
 	
