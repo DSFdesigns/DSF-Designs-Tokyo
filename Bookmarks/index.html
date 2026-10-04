@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />	
+	<meta name="viewport" content="width=device-width, inital-scale=1.0" />
+	<title>Bookmark Manager</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+	
+<body>
+	<header class="site-header">
+		<h1 class="logo">Shelf</h1>
+		<p class="bookmark-count" id="bookmark-count">0 saved</p>
+	</header>
+	
+	<div class="workspace">
+		<aside class="sidebar" id="sidebar">
+			<h2 class="sidebar-title">Save a link</h2>
+			<form id="addForm">
+				<label class="field">
+					<span class="field-label">Address</span>
+					<input type="text" 
+					class="inupt" 
+					id="urlInput"
+					placeholder="example.com/article"
+					required 
+					/>
+				</label>
+				
+				<label class="field">
+					<span class="field-label">Title <em>-optional<em></span>
+					<input type="text" 
+					class="inupt" 
+					id="titleInput"
+					placeholder="Taken from the address if blank" 
+					/>
+				</label>
+				
+				<label class="field">
+					<span class="field-label">Tags</span>
+					<input type="text" 
+					class="inupt" 
+					id="tagsInput"
+					placeholder="reading, ui, web design" 
+					/>
+				</label>
+				
+				<label class="field">
+					<span class="field-label">Note</span>
+					<textarea
+					class="inupt" 
+					id="noteInput"
+					placeholder="Taken from the address if blank" 
+					/>
+				</label>
+			</form>
+		</aside>
+	</div>
+	<script scr="main.js"></script>
+</body>
+</html>
